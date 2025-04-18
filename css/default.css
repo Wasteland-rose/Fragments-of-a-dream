@@ -120,3 +120,15 @@ a {
 	width: 50%;
 	border: 1px solid #333;
 }
+
+
+
+					/*--------------- SmartPhone ---------------*/
+@media min-width: 400px {
+			/*-------------------------*/
+	header {height: 600px;}
+	main {
+		margin-top: 601px;
+	}
+			/*-------------------------*/
+}
