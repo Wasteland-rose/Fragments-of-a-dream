@@ -2,7 +2,7 @@ body,header,footer,nav,#menu_content ul,#menu_content ul li,main {
 	margin: 0;
 	padding: 0;
 }
-/*---------------*/
+/*------------------------------------------------------------------------------------------*/
 body {
 	background: #eee;
 	color: #333;
@@ -15,7 +15,7 @@ header {
 	font-size: 45px;
 }
 	header div {
-		margin: 25px 0 0 45px;
+		margin-left: 40px;
 		font-weight: bold;
 		font-family: "Yu Mincho","YuMincho";
 		letter-spacing: 20px;
@@ -25,19 +25,19 @@ footer {
 	height: 50px;
 	font-size: 21px;
 }
-	footer div {
-		margin: 11px 0;
-	}
 	header,footer {
 		width: 100%;
-		display: block;
+		display: flex;
 		position: fixed;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
 		background: #333;
 		color: #eee;
 		text-align: center;
 		z-index: 500;
 	}
-/*----------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
 #menubar {
 	top: 20px;
 	right: 15px;

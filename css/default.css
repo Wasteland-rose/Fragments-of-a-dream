@@ -10,15 +10,14 @@ body {
 	font-size: 13px;
 }
 /*----------------------------*/
-header,main,footer {
-	display: block;
-}
-	header,footer {
+header,footer {
+		display: flex;
 		position: fixed;
 		width: 100%;
+		justify-content: center;
+		align-items: center;
 		background: #333;
 		color: #eee;
-		text-align: center;
 		z-index: 500;
 	}
 /*----------------------------*/
