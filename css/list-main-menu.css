@@ -1,0 +1,37 @@
+/*--------------- TagMenu ---------------*/
+#all_main_contents {
+	display: flex;
+}
+#text-tag-menu {
+	margin: 0;
+	width: 120px;
+	position: fixed;
+}
+ul#target-menu {
+	padding: 0;
+	list-style: none;
+}
+ul#target-menu li {
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+}
+	ul#target-menu li a{
+		padding: 5px 0;
+		display: block;
+		text-align: center;
+	}
+			ul#target-menu li a:first-child {
+				border-top: 2px solid #000;
+			}
+			ul#target-menu li#last {
+				border-bottom: 2px solid #000;
+			}
+		ul#target-menu li a.tag {
+			background: #ddd;
+			color: #000;
+		}
+#text-content {
+	flex: 1;
+	margin-left: 150px;
+	position: relative;
+}
