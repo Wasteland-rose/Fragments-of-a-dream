@@ -13,6 +13,7 @@ $(document).ready(function () {
 			'<li><a href="index.html">TOP</a></li>' +
 			'<li><a href="bio.html">BIOGRAPHY</a></li>' +
 			'<li><a href="main.html">MAIN</a></li>' +
+			'<li><a href="links.html">LINKS</a></li>' +
 		'</ul>' +
 	'</div>'
 	);

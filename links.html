@@ -12,6 +12,7 @@
 			<meta name="description" content="拙い文章を書いています。憂鬱な作品のサンプルにでもお使いください。" />
 				<!---------------->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+			<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 			<link rel="stylesheet" href="css/default.css" />
 			<link rel="stylesheet" href="css/list.css" />
 	</head>
@@ -21,8 +22,13 @@
 <nav></nav>
 				<!---------------->
 <main>
-	<div id="bio"></div>
+	<div id="links"></div>
 	<script src="js/default-main.js"></script>
+	<script>
+		window.onload = function() {
+			new ClipboardJS('.links-button');
+		}
+	</script>
 </main>
 				<!---------------->
 		<footer><div>Itone Kaei</div></footer>

@@ -15,8 +15,7 @@ $(document).ready(function () {
 					'<li>' + '更新頻度は遅いと思うのでBIOGRAPHYにあるXから確認してください。' + '</li>' +
 					'<li>' + 'サンプル利用していただいた作品のURLがある場合、リンクを貼らせていただく場合がございます。' + '</li>' +
 				'</ul>' +
-			'</div>' +
-	'<p id="watch_smart"><a href="m/index.html">スマートフォンで見る</a></p>'
+			'</div>'
 	);
 });
 /*---------------------------------------------------------------------------------------------------------*/
@@ -40,11 +39,36 @@ $(document).ready(function () {
 				'</dd>' +
 			'<dt>' + 'CONTACT' + '</dt>' +
 				'<dd>' +
-						'itonekaei@gmail.com' +
+						'<a href="contact.html">MAIL FORM</a>' +
 							'<div class="border"></div>' +
 							'<div class="text-small">' +
 								'※件名には「商用」「二次創作」など分かりやすくしてください。' +
 							'</div>' +
+				'</dd>' +
+			'<dt>' + 'OPERATION CHECK' + '</dt>' +
+				'<dd>' +
+					'<div>Windows11 - chrome</div>' +
+					'<div>GALAXY S23ultra</div>' +
+				'</dd>' +
+		'</dl>'
+	);
+});
+/*---------------------------------------------------------------------------------------------------------*/
+$(document).ready(function () {
+	$("#links").html(
+		'<dl>' +
+			'<dt>' + 'HP - COPY' + '</dt>' +
+				'<dd>' +
+					'<div class="links-copy-title">' + 'タイトル' + '</div>' +
+						'<div class="links-copy-button">' + '<button class="links-button" data-clipboard-text="夢の破片">夢の破片</button>' + '</div>' +
+					'<div class="links-copy-title">' + 'HP URL' + '</div>' +
+						'<div class="links-copy-button">' + '<button class="links-button" data-clipboard-text="https://wasteland-rose.github.io/Fragments-of-a-dream/">URL</button>' + '</div>' +
+					'<div class="links-copy-title">' + '著作者' + '</div>' +
+						'<div class="links-copy-button">' + '<button class="links-button" data-clipboard-text="霞影 絃音">霞影 絃音</button>' + '<button class="links-button" data-clipboard-text="Itone Kaei">Itone Kaei</button>' + '</div>' +
+				'</dd>' +
+			'<dt>' + 'LINKS' + '</dt>' +
+				'<dd>' +
+					'<a href="https://ja.pngtree.com/freepng/marble-texture-pattern_5420622.html" target="_blank">フリー素材：大理石画像</a>' + '<BR />' +
 				'</dd>' +
 		'</dl>'
 	);
