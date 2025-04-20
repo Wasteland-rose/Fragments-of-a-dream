@@ -18,8 +18,12 @@ ul#target-menu {
 	ul#target-menu {
 		padding: 0;
 		background-image: url("../images/nav_back_image.png");
-		background-color:rgba(255,255,255,0.5);
-		background-blend-mode:lighten;
+		background-color: rgba(255,255,255,0.5);
+		background-color: -webkit-rgba(255,255,255,0.5);
+		background-color: -moz-rgba(255,255,255,0.5);
+		background-color: -ms-rgba(255,255,255,0.5);
+		background-color: -o-rgba(255,255,255,0.5);
+		background-blend-mode: lighten;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -59,8 +63,12 @@ ul#target-menu {
 	ul#target-menu {
 		padding: 0;
 		background-image: url("../images/nav_back_image.png");
-		background-color:rgba(255,255,255,0.5);
-		background-blend-mode:lighten;
+		background-color: rgba(255,255,255,0.5);
+		background-color: -webkit-rgba(255,255,255,0.5);
+		background-color: -moz-rgba(255,255,255,0.5);
+		background-color: -ms-rgba(255,255,255,0.5);
+		background-color: -o-rgba(255,255,255,0.5);
+		background-blend-mode: lighten;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -105,7 +113,11 @@ ul#target-menu {
 		margin: 0;
 		padding: 0;
 		background-image: url("../images/nav_back_image.png");
-		background-color:rgba(255,255,255,0.5);
+		background-color: rgba(255,255,255,0.5);
+		background-color: -webkit-rgba(255,255,255,0.5);
+		background-color: -moz-rgba(255,255,255,0.5);
+		background-color: -ms-rgba(255,255,255,0.5);
+		background-color: -o-rgba(255,255,255,0.5);
 		background-blend-mode:lighten;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -148,8 +160,12 @@ ul#target-menu {
 		margin: 0;
 		padding: 0;
 		background-image: url("../images/nav_back_image.png");
-		background-color:rgba(255,255,255,0.5);
-		background-blend-mode:lighten;
+		background-color: rgba(255,255,255,0.5);
+		background-color: -webkit-rgba(255,255,255,0.5);
+		background-color: -moz-rgba(255,255,255,0.5);
+		background-color: -ms-rgba(255,255,255,0.5);
+		background-color: -o-rgba(255,255,255,0.5);
+		background-blend-mode: lighten;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -188,6 +204,10 @@ ul#target-menu {
 		padding: 0;
 		background-image: url("../images/nav_back_image.png");
 		background-color:rgba(255,255,255,0.5);
+		background-color: -webkit-rgba(255,255,255,0.5);
+		background-color: -moz-rgba(255,255,255,0.5);
+		background-color: -ms-rgba(255,255,255,0.5);
+		background-color: -o-rgba(255,255,255,0.5);
 		background-blend-mode:lighten;
 		background-size: cover;
 		background-repeat: no-repeat;
