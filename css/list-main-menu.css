@@ -128,11 +128,9 @@ ul#target-menu {
 					ul#target-menu li a:first-child {
 						border-top: 0;
 					}
-					ul#target-menu li#last {
-						border-bottom: 0;
-					}
 	#text-content {
 		flex: 1;
+		margin-left: 0;
 		position: relative;
 	}
 }
@@ -170,9 +168,6 @@ ul#target-menu {
 					ul#target-menu li a:first-child {
 						border-top: 0;
 					}
-					ul#target-menu li#last {
-						border-bottom: 0;
-					}
 	#text-content {
 		flex: 1;
 		position: relative;
@@ -199,6 +194,7 @@ ul#target-menu {
 		background-position: center;
 		overflow: hidden;
 		text-align: center;
+		border-bottom: 2px solid #000;
 	}
 		ul#target-menu li {
 				padding: 15px 20px;
@@ -212,11 +208,10 @@ ul#target-menu {
 					ul#target-menu li a:first-child {
 						border-top: 0;
 					}
-					ul#target-menu li#last {
-						border-bottom: 0;
-					}
 	#text-content {
 		flex: 1;
+		margin-left: 0;
+		margin-top: 120px;
 		position: relative;
 	}
 }
