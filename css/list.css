@@ -1,0 +1,42 @@
+/*--------------------------------------------------*/
+dt {
+	padding: 5px 15px;
+	background: #333;
+	color: #eee;
+	font-weight: bold;
+}
+dd {
+	padding: 10px 0;
+	line-height: 25px;
+}
+/*--------------------------------------------------*/
+#links a {
+	text-decoration: underline;
+}
+.links-copy-title {
+	width: 50%;
+	background: linear-gradient(to right, #222, #eee);
+	color: #eee;
+	font-weight: bold;
+	padding: 3px 15px;
+}
+	.links-copy-button {
+		margin: 0 30px 5px;
+	}
+		button:hover {
+			background: #333;
+			color: #eee;
+			transition:1.5s;
+		}
+.links-button {
+	width: 100px;
+	height: 30px;
+	margin: 5px 3px;
+	padding: 3px 5px;
+	justify-content: center;
+	align-items: center;
+}
+/*--------------------------------------------------*/
+#check {
+	margin: 20px 0 0;
+}
