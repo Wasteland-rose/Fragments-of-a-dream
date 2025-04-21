@@ -7,7 +7,7 @@ body,header,footer,nav,#menu_content ul,#menu_content ul li {
 	padding: 0;
 }
 header,#menu_content ul li a {
-	font-family: "Yu Mincho","YuMincho";
+		font-family: "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "MS P明朝", "MS 明朝", serif;
 }
 
 /*--------------------------------------------------*/
