@@ -5,9 +5,6 @@ $(document).ready(function() {
   const splash = $('#splash');  // スプラッシュ画面の要素
   const bgImg = new Image();  // 新しい画像オブジェクトを作成
 
-  // bodyを最初は透明にして非表示
-  $('body').css('opacity', '0');
-
   if (isMobile) {
     bgImg.src = 'https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg';  // スマホ用の画像URL
 
@@ -19,6 +16,7 @@ $(document).ready(function() {
         'opacity': '1'  // 画像を表示
       });
 
+      // スプラッシュ画面表示時間設定（1秒後にフェードアウト）
       setTimeout(() => {
         splash.fadeOut(1000, function() {
           $(this).css('display', 'none');  // 画像がフェードアウト
