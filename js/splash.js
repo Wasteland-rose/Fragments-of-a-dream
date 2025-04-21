@@ -1,3 +1,5 @@
+//splash.js
+
 $(document).ready(function() {
   const isMobile = window.innerWidth <= 599;
 
