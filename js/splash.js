@@ -1,5 +1,3 @@
-//splash.js
-
 $(document).ready(function() {
   const isMobile = window.innerWidth <= 599;
 
@@ -16,7 +14,8 @@ $(document).ready(function() {
       splash.css({
         'background-image': `url('${bgImg.src}')`,
         'background-color': 'transparent',
-        'display': 'block'
+        'display': 'flex',
+        'opacity': '1'  // 画像がロードされたら表示
       });
 
       setTimeout(() => {
