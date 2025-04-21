@@ -17,7 +17,7 @@
 }
 
 /* スマホ画面では画像を使う */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
   #splash {
     background-image: url('https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg');
     background-color: transparent;
