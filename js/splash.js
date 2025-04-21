@@ -1,19 +1,18 @@
-// splash.js
-
 $(document).ready(function() {
   const isMobile = window.innerWidth <= 599;
+
+  // bodyを最初は非表示（透明）に
+  $('body').css('opacity', '0');
 
   if (isMobile) {
     const splash = $('#splash');
     const bgImg = new Image();
 
-    // 画像を先にプリロード
     bgImg.src = 'https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg';
 
-    // 画像が完全に読み込まれたら splash を表示＆1秒後にフェードアウト
     bgImg.onload = function () {
       splash.css({
-        'background-image': url('${bgImg.src}'),
+        'background-image': `url('${bgImg.src}')`,
         'background-color': 'transparent',
         'display': 'block'
       });
@@ -21,20 +20,22 @@ $(document).ready(function() {
       setTimeout(() => {
         splash.fadeOut(1000, function () {
           $(this).css('display', 'none');
-          // ファビコン削除（以降は表示しない）
-          $('link[rel="icon"]').remove();
+          // スプラッシュ終了後にbodyを表示
+          $('body').css('opacity', '1');
         });
-      }, 1000); // ←ここでファビコン＋背景画像が揃ってから1秒キープ
+      }, 1000);
     };
   } else {
-    // PC時の既存挙動
+    // PC時の挙動
     if (!sessionStorage.getItem('splashShown')) {
       $('#splash').fadeOut(1000, function () {
         $(this).css('display', 'none');
+        $('body').css('opacity', '1');
       });
       sessionStorage.setItem('splashShown', 'true');
     } else {
       $('#splash').css('display', 'none');
+      $('body').css('opacity', '1');
     }
   }
 });
