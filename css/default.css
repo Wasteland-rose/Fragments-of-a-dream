@@ -15,7 +15,7 @@ header,#menu_content ul li a {
 body {
 	background: #eee;
 	color: #333;
-	font-family: "meiryo";
+	font-family: "meiryo", "メイリオ", "Arial";
 	font-size: 13px;
 }
 	a {
