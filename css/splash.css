@@ -1,21 +1,21 @@
 #splash {
-	background-color: black;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	z-index: 99999;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transition: opacity 2s ease-out;
+  background-color: black;  /* 基本は黒背景 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s ease-out;
 }
 
-
+/* スマホの時は背景画像と黒の色に切り替え */
 @media screen and (max-width: 599px) {
-	#splash {
-		background-image: url('https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg');
-		background-color: transparent;
-	}
+  #splash {
+    background-image: url('https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg');
+    background-color: black;
+  }
 }
