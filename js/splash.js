@@ -16,9 +16,9 @@ $(document).ready(function() {
 
   // スマホ画面サイズならfaviconを非表示
   if (window.innerWidth <= 599) {
-    const favicon = document.querySelector('link[rel="icon"]');
-    if (favicon) {
-      favicon.remove(); // faviconを非表示にするために削除
-    }
+    // const favicon = document.querySelector('link[rel="icon"]');
+    // if (favicon) {
+    //   favicon.remove(); // faviconを非表示にするために削除
+    // }
   }
 });
