@@ -1,7 +1,7 @@
 /* splash.css */
 
 #splash {
-  background-color: black; /* 初期背景は黒 */
+  background-color: black;  /* 初期背景は黒 */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,9 +11,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0; /* 初期は透明にしておく */
-  transition: opacity 2s ease-out; /* opacityの変更でフェードアウト */
-  display: flex; /* 中央に配置 */
+  opacity: 1;  /* 初期は不透明 */
+  transition: opacity 2s ease-out;
+  display: flex;  /* フェードアウト時に表示させるため、flexを使って中央配置 */
   justify-content: center;
   align-items: center;
 }
@@ -22,6 +22,6 @@
 @media screen and (max-width: 599px) {
   #splash {
     background-image: url('https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg');
-    background-color: transparent; /* 背景色透明に */
+    background-color: transparent;
   }
 }
