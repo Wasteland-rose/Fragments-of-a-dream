@@ -7,6 +7,9 @@ $(document).ready(function() {
   $('body').css('opacity', '0');
 
   if (isMobile) {
+    // スマホの場合のみファビコンを削除
+    $('link[rel="icon"]').remove();
+
     const splash = $('#splash');
     const bgImg = new Image();
 
@@ -24,9 +27,6 @@ $(document).ready(function() {
       setTimeout(() => {
         splash.fadeOut(1000, function () {
           $(this).css('display', 'none');
-          // ファビコン削除（以降は表示しない）
-          $('link[rel="icon"]').remove();
-          
           // スプラッシュ画面が消えたらページの透明度を戻す
           $('body').css('opacity', '1');
         });
