@@ -5,18 +5,18 @@ $(document).ready(function() {
   const splash = $('#splash');  // スプラッシュ画面の要素
   const bgImg = new Image();  // 新しい画像オブジェクトを作成
 
+  // モバイルの場合は画像をロード
   if (isMobile) {
     bgImg.src = 'https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg';  // スマホ用の画像URL
 
     bgImg.onload = function() {
       splash.css({
-        'background-image': `url('${bgImg.src}')`,
-        'background-color': 'transparent',
-        'display': 'flex', // 画像を中央に表示
+        'background-image': `url('${bgImg.src}')`,  // 正しい画像URLを指定
+        'background-color': 'transparent',  // 透明背景
+        'display': 'flex',  // 画像を中央に表示
         'opacity': '1'  // 画像を表示
       });
 
-      // スプラッシュ画面表示時間設定（1秒後にフェードアウト）
       setTimeout(() => {
         splash.fadeOut(1000, function() {
           $(this).css('display', 'none');  // 画像がフェードアウト
@@ -24,8 +24,14 @@ $(document).ready(function() {
         });
       }, 1000);  // 画像を表示させてから1秒後にフェードアウト
     };
+
+    bgImg.onerror = function() {
+      console.error("画像の読み込みに失敗しました。URLを確認してください。");
+    };
   } else {
     // PCの場合（黒い背景から本体表示）
+    splash.css('background', '#000');  // 明示的に黒背景を指定
+
     if (!sessionStorage.getItem('splashShown')) {
       splash.fadeOut(1000, function() {
         $(this).css('display', 'none');  // スプラッシュ画面非表示
