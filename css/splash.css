@@ -1,7 +1,7 @@
 /* splash.css */
 
 #splash {
-  background: #000 !important;  /* 強制的に黒背景に設定 */
+  background: #000 !important;  /* 黒背景を強制 */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,17 +11,17 @@
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 1;  /* 初期は不透明 */
+  opacity: 1;  /* 初期状態で不透明 */
   transition: opacity 2s ease-out;
   display: flex;  /* フェードアウト時に表示させるため、flexを使って中央配置 */
   justify-content: center;
   align-items: center;
 }
 
-/* スマホ画面では画像を使う */
+/* スマホの場合に背景画像を設定 */
 @media screen and (max-width: 599px) {
   #splash {
-    background-image: url('https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg');
-    background-color: transparent;
+    background-image: url('https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg') !important; /* 画像を強制的に設定 */
+    background-color: transparent !important; /* 背景色を透明に */
   }
 }
