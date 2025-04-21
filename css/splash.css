@@ -9,7 +9,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: opacity 2s ease-out;
-	z-index: 9999;
+	z-index: 99999;
 }
 
 @media screen and (max-width: 768px) {
