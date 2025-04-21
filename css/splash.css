@@ -1,7 +1,7 @@
 /* splash.css */
 
 #splash {
-  background-color: black;  /* 初期背景は黒 */
+  background: #000;  /* 背景を黒に設定 */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
