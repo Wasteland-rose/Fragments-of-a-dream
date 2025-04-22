@@ -29,16 +29,16 @@ $(document).ready(function () {
 /*--------------------------------------------------
 															--------------------------------------------------*/
 $("#text-content").html(
-	'<div class="content Unown Drama">' +
-		'<div class="main_content_orange">' +
-			'<div class="main_title_orange">' + '<a href="main/201.html">タイトル未定</a>' + '</div>' +
-					'<div class="content_tag_orange">' +
-						'ドラマ / 意味不明' +
+	'<div class="content Flow Drama Unown">' +
+		'<div class="main_content_purple">' +
+			'<div class="main_title_purple">' + '<a href="main/moonlit_night.html">月夜</a>' + '</div>' +
+					'<div class="content_tag_purple">' +
+						'意味不明 / ノリ / ドラマ' +
 					'</div>' +
-				'<div class="main_summary_orange">' +
+				'<div class="main_summary_purple">' +
 					'概要' +
 				'</div>' +
-				'<div class="writing_day_orange">' + '執筆日：執筆中' + '</div>' +
+				'<div class="writing_day_purple">' + '執筆日：執筆中' + '</div>' +
 		'</div>' +
 	'</div>'
 );
