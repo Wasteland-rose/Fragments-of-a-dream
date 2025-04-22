@@ -54,6 +54,7 @@ $(document).ready(function () {
 					'<div>Windows11 - chrome</div>' +
 					'<div>GALAXY S23ultra</div>' +
 					'<div>iPhone15</div>' +
+					'<div>iPhoneSE</div>' +
 						'<div id="check">' +
 							'<a href="https://jigsaw.w3.org/css-validator/check/referer">' +
 								'<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="正当なCSSです!" />' +
@@ -61,7 +62,7 @@ $(document).ready(function () {
 						'</div>' +
 							'<div class="border"></div>' +
 								'<div class="text-small">' +
-									'ブラウザによってレイアウトが異なる場合がございます。' +
+									'ブラウザーによってレイアウトが異なる場合がございます。' +
 								'</div>' +
 				'</dd>' +
 		'</dl>'
