@@ -29,14 +29,14 @@ $(document).ready(function () {
 /*--------------------------------------------------
 															--------------------------------------------------*/
 $("#text-content").html(
-	'<div class="content Flow Drama Unown">' +
+	'<div class="content Drama Love">' +
 		'<div class="main_content_purple">' +
 			'<div class="main_title_purple">' + '<a href="main/moonlit_night.html">月夜</a>' + '</div>' +
 					'<div class="content_tag_purple">' +
-						'意味不明 / ノリ / ドラマ' +
+						'ドラマ / 恋愛' +
 					'</div>' +
 				'<div class="main_summary_purple">' +
-					'概要' +
+					'現代 + ファンタジー + 恋愛 + シリアスで書きました。<BR />切ない感じを出すのに苦労しました。' +
 				'</div>' +
 				'<div class="writing_day_purple">' + '執筆日：執筆中' + '</div>' +
 		'</div>' +
