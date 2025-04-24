@@ -1,16 +1,40 @@
-/*-------------------------------------------------------*/
-#decoration span {
-	padding: 0px 5px;
-	letter-spacing: 0;
+/*-------------------------------------------------------
+										Text
+　-------------------------------------------------------*/
+
+#decoration {
+	letter-spacing: 2px;
+	line-height: 25px;
 }
-	#decoration span::before {
-		content: "―――";
+
+/*------------------------- Other -------------------------*/
+
+#decoration span.two::before {
+	content: "――";
+}
+#decoration span.three::before {
+	content: "―――";
+}
+#decoration span.four::before {
+	content: "――――";
+}
+#decoration span.five::before {
+	content: "―――――";
+}
+	#decoration span.two,#decoration span.three,#decoration span.four,#decoration span.five,#decoration span.three-reader {
+		margin: 0 2px;
+		letter-spacing: -0.1px;
 	}
+
 #decoration p {
 	font-weight: 400;
 }
-/*-----------------------------*/
-#decoration {
-	letter-spacing: 4px;
-	line-height: 2;
+
+#decoration p.asta::before {
+	content: "　　　＊　＊　＊";
+	font-weight: 600;
+}
+
+#decoration span.three-reader::before {
+	content: "………";
 }

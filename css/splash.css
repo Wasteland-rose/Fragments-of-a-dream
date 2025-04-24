@@ -14,15 +14,6 @@
 	transition: opacity 2s ease-out;
 }
 
-/* モバイル：背景画像だけに切り替え */
-@media screen and (max-width: 767px) {
-	#splash {
-		background-image: url('https://wasteland-rose.github.io/Fragments-of-a-dream/images/splash-bg.jpg');
-		background-color: transparent;
-	}
-}
-
-/* フェードアウト後の処理（共通） */
 body.loaded #splash {
 	opacity: 0;
 	pointer-events: none;
