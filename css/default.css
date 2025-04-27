@@ -125,6 +125,35 @@ main {
 
 /*--------------------------------------------------*/
 
+#update {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+}
+	#update-title {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+#reloadButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	transition: transform 0.8s ease-in-out;
+}
+	#reloadButton svg {
+		transform-origin: center;
+		transition: transform 0.8s ease-in-out;
+	}
+		#reloadButton:hover svg {
+			transform: rotate(360deg);
+		}
+
+/*--------------------------------------------------*/
+
 #all_main_contents {
 	display: flex;
 }
