@@ -67,7 +67,7 @@ $(document).ready(function () {
 						'</div>' +
 							'<div class="border"></div>' +
 								'<div class="text-small">' +
-									'ブラウザーによってレイアウトが異なる場合がございます。<BR />iPhoneは友人のスマートフォンで確認していただいます。' +
+									'ブラウザーによってレイアウトが異なる場合がございます。<BR />iPhoneは友人のスマートフォンで確認していただいています。' +
 								'</div>' +
 				'</dd>' +
 		'</dl>'
