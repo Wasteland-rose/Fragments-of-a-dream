@@ -67,7 +67,11 @@ $(document).ready(function () {
 				'</dd>' +
 			'<dt>' + 'OPERATION CHECK' + '</dt>' +
 				'<dd>' +
-					'<div>Windows11 - chrome</div>' +
+					'<div>Windows11 - Microsoft Bing</div>' +
+					'<div>Windows11 - Chrome</div>' +
+					'<div>Windows11 - Firefox</div>' +
+					'<div>Windows11 - Opera</div>' +
+					'<div>Windows11 - Brave</div>' +
 					'<div>GALAXY S23ultra</div>' +
 					'<div>iPhone15</div>' +
 					'<div>iPhoneSE</div>' +
