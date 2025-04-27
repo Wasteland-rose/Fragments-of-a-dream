@@ -2,14 +2,19 @@
 
 $(document).ready(function () {
     $("#update").html(
-		 '<div id="update-title">' + '<a href="update.html">UPDATE：2025/04/27</a>' +
-			'<button id="reloadButton">' +
-				'<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">' +
-					'<path d="M8 5l7 7-7 7" fill="none" stroke="black" stroke-width="2"/>' +
-				'</svg>' +
-			'</button>' +
-		'</div>'
+        '<div id="update-title">' + 
+            '<a href="update.html">UPDATE：2025/04/27</a>' +
+            '<button id="reloadButton">' +
+                '<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">' +
+                    '<path d="M8 5l7 7-7 7" fill="none" stroke="black" stroke-width="2"/>' +
+                '</svg>' +
+            '</button>' +
+        '</div>'
     );
+
+    $("#reloadButton").click(function() {
+        reloadPage();
+    });
 });
 
 /*---------------------------------------------------------------------------------------------------------*/
