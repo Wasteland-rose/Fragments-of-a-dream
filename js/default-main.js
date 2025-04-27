@@ -3,7 +3,7 @@
 $(document).ready(function () {
     $("#update").html(
         '<div id="update-title">' + 
-            '<a href="update.html">UPDATE：2025/04/27</a>' +
+            '<a href="update.html">2025/04/27</a>' +
             '<button id="reloadButton">' +
                 '<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">' +
                     '<path d="M8 5l7 7-7 7" fill="none" stroke="black" stroke-width="2"/>' +
@@ -33,6 +33,7 @@ $(document).ready(function () {
 					'<li>' + '更新頻度は遅いと思うので、BIOGRAPHYにあるXから確認をしてください。' + '</li>' +
 					'<li>' + 'サンプル利用・二次創作をしていただいたURLがある場合、リンクを貼らせていただく場合がございます。' + '</li>' +
 					'<li>' + 'ホーム画面に追加することも可能です。' + '</li>' +
+					'<li>' + '変化がなければ時間を置くか、日付横にある＞を押してください。' + '</li>' +
 				'</ul>' +
 			'</div>'
 	);
@@ -68,6 +69,7 @@ $(document).ready(function () {
 			'<dt>' + 'OPERATION CHECK' + '</dt>' +
 				'<dd>' +
 					'<div>Windows11 - Microsoft Bing</div>' +
+					'<div>Windows11 - Microsoft Edge</div>' +
 					'<div>Windows11 - Chrome</div>' +
 					'<div>Windows11 - Firefox</div>' +
 					'<div>Windows11 - Opera</div>' +
