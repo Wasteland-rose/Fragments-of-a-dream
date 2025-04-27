@@ -113,6 +113,11 @@ $(document).ready(function () {
 					'<a href="https://ja.pngtree.com/freepng/marble-texture-pattern_5420622.html" target="_blank">大理石画像</a>' + '<BR />' +
 					'<a href=https://jp.freepik.com/free-photo/shattered-glass-texture_27504247.htm#fromView=keyword&page=1&position=0&uuid=fa9103e5-a775-459f-9d30-3d85a703a8ce&query=%E5%89%B2%E3%82%8C%E3%81%9F%E3%82%AC%E3%83%A9%E3%82%B9" target="_blank">割れる画像</a>' + '<BR />' +
 				'</dd>' +
+			'<dt>' + 'SNS' + '</dt>' +
+				'<dd>' +
+					'<a href="https://mypage.syosetu.com/2894478/" target="_blank">小説家になろう</a>' + '<BR />' +
+					'<a href="https://www.pixiv.net/users/115809683" target="_blank">pixiv</a>' +
+				'</dd>' +
 		'</dl>'
 	);
 });
