@@ -27,22 +27,23 @@ $(document).ready(function () {
 	);
 });
 /*------------------------------------------------------------------------------------------
+		black,red,blue,green,orange,pink,purple
+		A15,R18,Gro,Ero,Death,Horror,Unown,Flow,Love,Drama,BL,GL,NL
 	------------------------------------------------------------------------------------------*/
 $("#text-content").html(
-				/*-----------
-	'<div class="content Drama Love">' +
+				/*--------------------*/
+	'<div class="content Love">' +
 		'<div class="main_content_purple">' +
-			'<div class="main_title_purple">' + '<a href="#">月夜</a>' + '</div>' +
+			'<div class="main_title_purple">' + '<a href="main/moonlit_night.html">月夜</a>' + '</div>' +
 					'<div class="content_tag_purple">' +
-						'ドラマ / 恋愛' +
+						'恋愛' +
 					'</div>' +
 				'<div class="main_summary_purple">' +
 					'「友達の家に行く約束をした」<BR />そこから始まる切なさ有りの現代ファンタジー' +
 				'</div>' +
-				'<div class="writing_day_purple">' + '執筆日：執筆中' + '</div>' +
+				'<div class="writing_day_purple">' + '執筆日：2025/04/29' + '</div>' +
 		'</div>' +
 	'</div>' +
-				--------------------*/
 				/*--------------------*/
 	'<div class="content Drama Horror">' +
 		'<div class="main_content_black">' +

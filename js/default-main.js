@@ -3,7 +3,7 @@
 $(document).ready(function () {
     $("#update").html(
         '<div id="update-title">' + 
-            '<a href="update.html">2025/04/27</a>' +
+            '<b>UP DATE</b>：<a href="update.html">2025/04/28</a>' +
             '<button id="reloadButton">' +
                 '<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">' +
                     '<path d="M8 5l7 7-7 7" fill="none" stroke="black" stroke-width="2"/>' +
@@ -22,22 +22,17 @@ $(document).ready(function () {
 	$("#hp-rule").html(
 			'<div id="hp-rule-content">' +
 				'<ul>' +
-					'<li>' + '推薦ブラウザ―はchromeです。' + '</li>' +
-					'<li>' + '完全オリジナルですが<B>尊敬している作品の影響を受けている</B>可能性があります。' + '</li>' +
-					'<li>' + '作品をサンプル活用、二次創作は大歓迎です。' + '</li>' +
-					'<li>' + 'サンプル活用・二次創作をする場合は、「原作者名」もしくは「夢の破片」の記載をお願いいたします。' + '</li>' +
-					'<li>' + '作品のおおまかな筋を変えなければ、キャラクターの関係性・名前・エンドの変更は好きにしていただいてかまいません。' + '</li>' +
-					'<li>' + '商用のみ、メールにて報告をお願いいたします。' + '</li>' +
-					'<li>' + 'メールは確認のみで個人情報を流布することはいたしません。' + '</li>' +
-					'<li>' + 'メールアドレスはBIOGRAPHYから確認をしてください。' + '</li>' +
-					'<li>' + '更新頻度は遅いと思うので、BIOGRAPHYにあるXから確認をしてください。' + '</li>' +
-					'<li>' + 'サンプル利用・二次創作をしていただいたURLがある場合、リンクを貼らせていただく場合がございます。' + '</li>' +
-					'<li>' + 'ホーム画面に追加することも可能です。' + '</li>' +
-					'<li>' + '変化がなければ時間を置くか、日付横にある＞を押してください。' + '</li>' +
+					'<li>' + '作品のサンプル利用や二次創作は歓迎です。' + '</li>' +
+					'<li>' + 'その際は、「霞影 絃音」または「夢の破片」の記載をお願いします。' + '</li>' +
+					'<li>' + 'キャラクターやエンディングの変更は自由ですが、物語の大筋は変えないでください。' + '</li>' +
+					'<li>' + '※商用利用の場合、事前にメールでご報告をお願いします。<br />メールアドレスはBIOGRAPHYページから確認できます。<br />個人情報は流布しません。' + '</li>' +
+					'<li>' + '最新情報はBIOGRAPHYのX（旧Twitter）で確認できます。<br />変化がない場合は時間を置くか、日付横の「＞」を押してください。' + '</li>' +
+					'<li>' + '更新履歴は日付をタップするか、<a href="update.html" style="text-decoration: underline;">こちら</a>からご確認いただけます。' + '</li>' +
 				'</ul>' +
 			'</div>'
 	);
 });
+
 /*---------------------------------------------------------------------------------------------------------*/
 $(document).ready(function () {
 	$("#bio").html(
@@ -50,7 +45,11 @@ $(document).ready(function () {
 				'<dd>' +
 						'2000年ほどから活動を始める。<BR />' +
 						'25年までの間に様々なことがあり、他者との関わりをやめる。<BR />' +
+						'<p>' +
 						'尊敬している作品が自分の一部の作品に反映されることに悩んでいる。' +
+						'キャラクターを作って舞台を用意しているため、プロットが作れないで居る。' +
+						'</p>' +
+						'2025/4 下旬　綺麗な作品が出来てファビコンとかアイコンにして満足している。' +
 				'</dd>' +
 			'<dt>' + 'SNS' + '</dt>' +
 				'<dd>' +
@@ -103,20 +102,23 @@ $(document).ready(function () {
 					'<div class="links-copy-title">' + '著作者' + '</div>' +
 						'<div class="links-copy-button">' + '<button class="links-button" data-clipboard-text="霞影 絃音">霞影 絃音</button>' + '<button class="links-button" data-clipboard-text="Itone Kaei">Itone Kaei</button>' + '</div>' +
 				'</dd>' +
-			'<dt>' + 'SHORTCUT ICON' + '</dt>' +
+			'<dt>' + 'Bunner' + '</dt>' +
 				'<dd>' +
-					'<button id="install-button" style="display:none;">インストール</button>' +
-						'<div class="text-small">' + '※「インストール」が出てこない場合、ブラウザや端末に従ってショートカットアイコンを作成願います。' + '</div>' +
+					'<img src="https://wasteland-rose.github.io/Fragments-of-a-dream/images/bunner.png" style="margin-right: 20px; height: 80px;">' +
+					'<img src="https://wasteland-rose.github.io/Fragments-of-a-dream/images/bunner_2.png" style="height: 80px;"><BR />' +
+					'ご使用の際は画像を保存して、好きなサイズに変更してください。' +
 				'</dd>' +
 			'<dt>' + 'FREE IMAGES' + '</dt>' +
 				'<dd>' +
 					'<a href="https://ja.pngtree.com/freepng/marble-texture-pattern_5420622.html" target="_blank">大理石画像</a>' + '<BR />' +
 					'<a href=https://jp.freepik.com/free-photo/shattered-glass-texture_27504247.htm#fromView=keyword&page=1&position=0&uuid=fa9103e5-a775-459f-9d30-3d85a703a8ce&query=%E5%89%B2%E3%82%8C%E3%81%9F%E3%82%AC%E3%83%A9%E3%82%B9" target="_blank">割れる画像</a>' + '<BR />' +
+						'<div class="text-small">' + '※外部サイトに移行します。' + '</div>' +
 				'</dd>' +
 			'<dt>' + 'SNS' + '</dt>' +
 				'<dd>' +
 					'<a href="https://mypage.syosetu.com/2894478/" target="_blank">小説家になろう</a>' + '<BR />' +
 					'<a href="https://www.pixiv.net/users/115809683" target="_blank">pixiv</a>' +
+						'<div class="text-small">' + '※外部サイトに移行します。' + '</div>' +
 				'</dd>' +
 		'</dl>'
 	);

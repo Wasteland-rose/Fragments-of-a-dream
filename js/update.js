@@ -5,9 +5,13 @@ $(document).ready(function () {
     $("#update").html(
             '<div id="update-content">' +
                 '<dl>' +
+                	'<dt>2025/04/28</dt>' +
+					'<dd>' +
+                		'「月夜」公開<BR />小説家になろう・pixivにも投稿<BR />HPバナーをLINKSに追加' +
+                	'</dd>' +
                 	'<dt>2025/04/27</dt>' +
 					'<dd>' +
-                		'「言葉は要らず」公開<BR />小説家になろう・pixivに登録、LINKにページを追加' +
+                		'「言葉は要らず」公開<BR />小説家になろう・pixivに登録、LINKSにページを追加' +
                 	'</dd>' +
                 	'<dt>2025/04/26</dt>' +
                 	'<dd>' +

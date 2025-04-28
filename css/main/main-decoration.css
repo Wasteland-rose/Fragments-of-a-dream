@@ -21,7 +21,7 @@
 #decoration span.five::before {
 	content: "―――――";
 }
-	#decoration span.two,#decoration span.three,#decoration span.four,#decoration span.five,#decoration span.three-reader {
+	#decoration span.two,#decoration span.three,#decoration span.four,#decoration span.five,#decoration span.three-reader_three,#decoration span.three-reader_two  {
 		margin: 0 2px;
 		letter-spacing: -0.1px;
 	}
@@ -35,6 +35,10 @@
 	font-weight: 600;
 }
 
-#decoration span.three-reader::before {
+#decoration span.three-reader_three::before {
 	content: "………";
+}
+
+#decoration span.three-reader_two::before {
+	content: "……";
 }
