@@ -49,6 +49,11 @@ header,footer {
 			font-weight: bold;
 			letter-spacing: 10px;
 		}
+			header div::before {
+				content: "";
+				display: inline-block;
+				width: 5px;
+			}
 
 /*--------------------------------------------------*/
 
@@ -62,7 +67,7 @@ header,footer {
 	border: none;
 	outline: none;
 	cursor: pointer;
-	z-index: 999;
+	z-index: 99999;
 	transition: 0.5s;
 }
 .bar {
@@ -77,7 +82,7 @@ header,footer {
 	display: block;
 	position: fixed;
 	overflow: hidden;
-	z-index: 999;
+	z-index: 99999;
 	max-height: 0;
 	width: 100%;
 }
@@ -154,27 +159,41 @@ main {
 
 /*--------------------------------------------------*/
 
-#all_main_contents {
-	display: flex;
+#text-tag-menu {
+    z-index: 999;
+    background-image: url("../images/nav_back_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 50px; /* 最低でもボタンが入るくらいの高さ */
+    height: auto; /* ←重要！！高さ自動にする */
+    overflow: hidden;
+    position: relative;
+}
+
+#NavMenuButton {
+    background: none;
+    padding: 10px;
+    border: none;
+    z-index: 2;
 }
 
 ul#target-menu {
-	list-style: none;
-	background-image: url("../images/nav_back_image.png");
-	background-color: rgba(255,255,255,0.5);
-	background-color: -webkit-rgba(255,255,255,0.5);
-	background-color: -moz-rgba(255,255,255,0.5);
-	background-color: -ms-rgba(255,255,255,0.5);
-	background-color: -o-rgba(255,255,255,0.5);
-	background-blend-mode: lighten;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-	ul#target-menu li a.tag {
-		color: #000;
-	}
+
+ul#target-menu li a.tag {
+    color: #000;
+}
+
+
+
+
+
 
 
 /*------------------------------------------------------------
@@ -184,6 +203,9 @@ ul#target-menu {
 #menu_content ul li a {
 	padding: 5px 50px 5px 0;
 }
+#NavMenuButton {
+	display: none;
+}
 	#text-tag-menu {
 		margin: 0;
 		width: 120px;
@@ -214,10 +236,13 @@ ul#target-menu {
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
 #menu_content ul li a {
 	padding: 5px 50px 5px 0;
 }
+#NavMenuButton {
+	display: none;
+}
 	#text-tag-menu {
 		margin: 0;
 		width: 120px;
@@ -248,11 +273,14 @@ ul#target-menu {
 	}
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
 #menu_content ul li a {
 	padding: 12px 50px 12px 0;
 }
 	#text-tag-menu {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
 		border-bottom: 2px solid #333;
 		z-index: 400;
 	}
@@ -262,13 +290,13 @@ ul#target-menu {
 		width: 100%;
 		position: fixed;
 	}
-		#text-tag-menu ul {
-			width: 100%;
-		}
 	ul#target-menu {
 		margin: 0;
 		padding: 0;
+		right: 10px;
 		text-align: center;
+		display: block;
+		position: relative;
 	}
 		ul#target-menu li {
 				padding: 15px 8px;
@@ -313,6 +341,7 @@ ul#target-menu {
 	ul#target-menu {
 		margin: 0;
 		padding: 0;
+		display: none;
 		text-align: center;
 	}
 		ul#target-menu li {
@@ -332,7 +361,51 @@ ul#target-menu {
 					}
 	#text-content {
 		flex: 1;
-		margin-top: 80px;
+		margin-top: 60px;
+		display: block;
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 479px) {
+#menu_content ul li a {
+	padding: 12px 10px;
+}
+	#text-tag-menu {
+		top: 56px;
+		left: 0;
+		width: 100%;
+		position: absolute;
+		border-bottom: 2px solid #333;
+		z-index: 400;
+	}
+		#text-tag-menu ul {
+			width: 100%;
+		}
+	ul#target-menu {
+		margin: 0;
+		padding: 0;
+		display: none;
+		text-align: center;
+	}
+		ul#target-menu li {
+				padding: 15px 20px;
+				text-align: center;
+				display: inline-block;
+		}
+			ul#target-menu li a{
+				display: block;
+				text-decoration: underline;
+			}
+					ul#target-menu li a:first-child {
+						border-top: 0;
+					}
+					ul#target-menu li#last {
+						border-bottom: 0;
+					}
+	#text-content {
+		flex: 1;
+		margin-top: 60px;
 		display: block;
 		position: relative;
 	}
@@ -354,6 +427,7 @@ ul#target-menu {
 	ul#target-menu {
 		margin: 0;
 		padding: 0;
+		display: none;
 		text-align: center;
 	}
 		ul#target-menu li {
@@ -373,48 +447,7 @@ ul#target-menu {
 					}
 	#text-content {
 		flex: 1;
-		margin-top: 80px;
-		display: block;
-		position: relative;
-	}
-}
-
-@media screen and (max-width: 479px) {
-#menu_content ul li a {
-	padding: 12px 10px;
-}
-	#text-tag-menu {
-		top: 56px;
-		left: 0;
-		width: 100%;
-		position: absolute;
-	}
-		#text-tag-menu ul {
-			width: 100%;
-		}
-	ul#target-menu {
-		margin: 0;
-		padding: 0;
-		text-align: center;
-	}
-		ul#target-menu li {
-				padding: 15px 20px;
-				text-align: center;
-				display: inline-block;
-		}
-			ul#target-menu li a{
-				display: block;
-				text-decoration: underline;
-			}
-					ul#target-menu li a:first-child {
-						border-top: 0;
-					}
-					ul#target-menu li#last {
-						border-bottom: 0;
-					}
-	#text-content {
-		flex: 1;
-		margin-top: 80px;
+		margin-top: 60px;
 		display: block;
 		position: relative;
 	}
