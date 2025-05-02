@@ -14,7 +14,7 @@ fetch('json/blackout.json')
 
 				// HPのフェードイン
 				setTimeout(() => {
-					const mainContent = document.getElementById('Main-Content');
+					const mainContent = document.getElementById('main-content');
 					mainContent.style.transition = `opacity ${data.loginScene.brightScene.fadeInDuration}ms ${data.loginScene.brightScene.easing}`;
 					mainContent.style.opacity = 1; // フェードインさせる
 				}, data.loginScene.brightScene.fadeInDuration); // ホワイトアウト終了後にHP表示
