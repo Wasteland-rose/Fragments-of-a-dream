@@ -1,0 +1,112 @@
+/*----------------------------------------------------------------------------------------------------
+					ALL contents
+   ----------------------------------------------------------------------------------------------------*/
+
+#index-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+	#index-image img{
+		width: 300px;
+		 filter: drop-shadow(5px 5px 5px #333);
+	}
+/*-------------------- Update --------------------*/
+
+#UPdate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+}
+	#UpDate-Add {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		font-weight: bold;
+	}
+	#UPdate a {
+		border-bottom: 1px solid #333;
+	}
+
+#reloadButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	transition: transform 0.8s ease-in-out;
+}
+	#reloadButton svg {
+		transform-origin: center;
+		transition: transform 0.8s ease-in-out;
+	}
+		#reloadButton:hover svg {
+			transform: rotate(360deg);
+		}
+
+/*-------------------- HP rule --------------------*/
+
+#HpRule {
+	margin: 20px 0 0 0;
+}
+	#HpRule ul {
+		list-style: none;
+		border: 1px solid #aaa;
+	}
+		#HpRule ul li {
+			margin: 0;
+			padding: 10px 20px;
+			border-bottom: 1px dashed #111;
+		}
+			#HpRule ul li:last-child {
+				border-bottom: none;
+			}
+
+/*-------------------- Other LIST --------------------*/
+
+dt {
+	padding: 10px 15px;
+	background: #111;
+	color: #eee;
+	font-weight: bold;
+}
+dd {
+	margin: 0 30px 20px 30px;
+	padding: 10px 0;
+	line-height: 25px;
+}
+
+.LinksCopyTitle {
+	width: 50%;
+	background: linear-gradient(to right, #222, #eee);
+	color: #eee;
+	font-weight: bold;
+	padding: 3px 15px;
+}
+	.LinksCopyButton {
+		margin: 0 30px 5px;
+	}
+		button.links-button:hover {
+			background: #111;
+			color: #eee;
+			transition:1.5s;
+		}
+.links-button {
+	width: 100px;
+	height: 30px;
+	margin: 5px 3px;
+	padding: 3px 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+#check {
+	margin: 20px 0 0;
+}
+
+.text-small {
+	font-size: 10px;
+}
+
+
