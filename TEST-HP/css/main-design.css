@@ -79,11 +79,11 @@
 	color: #eee;
 }
 	.Plot_Bla a {
-		background: linear-gradient(to right, #ccc, #eee);
-		background: -webkit-linear-gradient(to right, #ccc, #eee);
-		background: -moz-linear-gradient(to right, #ccc, #eee);
-		background: -ms-linear-gradient(to right, #ccc, #eee);
-		background: -o-linear-gradient(to right, #ccc, #eee);
+		background: linear-gradient(to right, #eee, #ccc);
+		background: -webkit-linear-gradient(to right, #eee, #ccc);
+		background: -moz-linear-gradient(to right, #eee, #ccc);
+		background: -ms-linear-gradient(to right, #eee, #ccc);
+		background: -o-linear-gradient(to right, #eee, #ccc);
 		color: #333;
 	}
 .Title_BR a {
@@ -95,27 +95,27 @@
 	color: #900;
 }
 	.Plot_BR a {
-		background: linear-gradient(to right, #FF0000, #333);
-		background: -webkit-linear-gradient(to right, #FF0000, #333);
-		background: -moz-linear-gradient(to right, #FF0000, #333);
-		background: -ms-linear-gradient(to right, #FF0000, #333);
-		background: -o-linear-gradient(to right, #FF0000, #333);
+		background: linear-gradient(to right, #333, #FF0000, #333);
+		background: -webkit-linear-gradient(to right, #333, #FF0000, #333);
+		background: -moz-linear-gradient(to right, #333, #FF0000, #333);
+		background: -ms-linear-gradient(to right, #333, #FF0000, #333);
+		background: -o-linear-gradient(to right, #333, #FF0000, #333);
 		color: #900;
 	}
 .Title_R a {
-	background: linear-gradient(to right, #600, #FF0461);
-	background: -webkit-linear-gradient(to right, #600, #FF0461);
-	background: -moz-linear-gradient(to right, #600, #FF0461);
-	background: -ms-linear-gradient(to right, #600, #FF0461);
-	background: -o-linear-gradient(to right, #600, #FF0461);
+	background: linear-gradient(to right, #600, #C33);
+	background: -webkit-linear-gradient(to right, #600, #C33);
+	background: -moz-linear-gradient(to right, #600, #C33);
+	background: -ms-linear-gradient(to right, #600, #C33);
+	background: -o-linear-gradient(to right, #600, #C33);
 	color: #C33;
 }
 	.Plot_R a {
-		background: linear-gradient(to right, #C33, #eee);
-		background: -webkit-linear-gradient(to right, #C33, #eee);
-		background: -moz-linear-gradient(to right, #C33, #eee);
-		background: -ms-linear-gradient(to right, #C33, #eee);
-		background: -o-linear-gradient(to right, #C33, #eee);
+		background: linear-gradient(to right, #eee, #C33);
+		background: -webkit-linear-gradient(to right, #eee, #C33);
+		background: -moz-linear-gradient(to right, #eee, #C33);
+		background: -ms-linear-gradient(to right, #eee, #C33);
+		background: -o-linear-gradient(to right, #eee, #C33);
 		color: #600;
 	}
 .Title_Pi a {
@@ -127,12 +127,12 @@
 	color: #600;
 }
 	.Plot_Pi a {
-		background: linear-gradient(to right, #F0C, #F9F);
-		background: -webkit-linear-gradient(to right, #F0C, #F9F);
-		background: -moz-linear-gradient(to right, #F0C, #F9F);
-		background: -ms-linear-gradient(to right, #F0C, #F9F);
-		background: -o-linear-gradient(to right, #F0C, #F9F);
-		color: #600;
+		background: linear-gradient(to right, #eee, #F9F);
+		background: -webkit-linear-gradient(to right, #eee, #F9F);
+		background: -moz-linear-gradient(to right, #eee, #F9F);
+		background: -ms-linear-gradient(to right, #eee, #F9F);
+		background: -o-linear-gradient(to right, #eee, #F9F);
+		color: #F0C;
 	}
 .Title_Pu a {
 	background: linear-gradient(to right, #63C, #DCC2FF);
@@ -143,12 +143,12 @@
 	color: #DCC2FF;
 }
 	.Plot_Pu a {
-		background: linear-gradient(to right, #63C, #DCC2FF);
-		background: -webkit-linear-gradient(to right, #63C, #DCC2FF);
-		background: -moz-linear-gradient(to right, #63C, #DCC2FF);
-		background: -ms-linear-gradient(to right, #63C, #DCC2FF);
-		background: -o-linear-gradient(to right, #63C, #DCC2FF);
-		color: #DCC2FF;
+		background: linear-gradient(to right, #eee, #DCC2FF);
+		background: -webkit-linear-gradient(to right, #eee, #DCC2FF);
+		background: -moz-linear-gradient(to right, #eee, #DCC2FF);
+		background: -ms-linear-gradient(to right, #eee, #DCC2FF);
+		background: -o-linear-gradient(to right, #eee, #DCC2FF);
+		color: #63C;
 	}
 .Title_Blu a {
 	background: linear-gradient(to right, #00C, #75A9FF);
@@ -159,11 +159,11 @@
 	color: #CFF;
 }
 	.Plot_Blu a {
-		background: linear-gradient(to right, #75A9FF, #eee);
-		background: -webkit-linear-gradient(to right, #75A9FF, #eee);
-		background: -moz-linear-gradient(to right, #75A9FF, #eee);
-		background: -ms-linear-gradient(to right, #75A9FF, #eee);
-		background: -o-linear-gradient(to right, #75A9FF, #eee);
+		background: linear-gradient(to right, #eee, #75A9FF);
+		background: -webkit-linear-gradient(to right, #eee, #75A9FF);
+		background: -moz-linear-gradient(to right, #eee, #75A9FF);
+		background: -ms-linear-gradient(to right, #eee, #75A9FF);
+		background: -o-linear-gradient(to right, #eee, #75A9FF);
 		color: #00C;
 	}
 .Title_G a {
@@ -175,11 +175,11 @@
 	color: #030;
 }
 	.Plot_G a {
-		background: linear-gradient(to right, #099, #CFF);
-		background: -webkit-linear-gradient(to right, #099, #CFF);
-		background: -moz-linear-gradient(to right, #099, #CFF);
-		background: -ms-linear-gradient(to right, #099, #CFF);
-		background: -o-linear-gradient(to right, #099, #CFF);
+		background: linear-gradient(to right, #eee, #CFF);
+		background: -webkit-linear-gradient(to right, #eee, #CFF);
+		background: -moz-linear-gradient(to right, #eee, #CFF);
+		background: -ms-linear-gradient(to right, #eee, #CFF);
+		background: -o-linear-gradient(to right, #eee, #CFF);
 		color: #030;
 	}
 .Title_O a {
@@ -188,13 +188,13 @@
 	background: -moz-linear-gradient(to right, #F00, #FFC);
 	background: -ms-linear-gradient(to right, #F00, #FFC);
 	background: -o-linear-gradient(to right, #F00, #FFC);
-	color: #600;
+	color: #CFF;
 }
 	.Plot_O a {
-		background: linear-gradient(to right, #F00, #FFC);
-		background: -webkit-linear-gradient(to right, #F00, #FFC);
-		background: -moz-linear-gradient(to right, #F00, #FFC);
-		background: -ms-linear-gradient(to right, #F00, #FFC);
-		background: -o-linear-gradient(to right, #F00, #FFC);
-		color: #600;
+		background: linear-gradient(to right, #eee, #FFC);
+		background: -webkit-linear-gradient(to right, #eee, #FFC);
+		background: -moz-linear-gradient(to right, #eee, #F00;
+		background: -ms-linear-gradient(to right, #eee, #F00);
+		background: -o-linear-gradient(to right, #eee, #F00);
+		color: #333;
 	}
