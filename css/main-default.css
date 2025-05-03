@@ -194,6 +194,8 @@ ul#TargetMenu li a.tag {
 
 	#TextContents {
 		flex: 1;
+		display: block;
+		margin-top: 80px;
 		margin-left: 0;
 		position: relative;
 	}
@@ -244,11 +246,21 @@ ul#TargetMenu li a.tag {
 
 	#TextContents {
 		flex: 1;
+		margin-top: 70px;
 		position: relative;
 	}
 }
 
 @media screen and (max-width: 479px) {
+	#menu_content ul li a {
+		padding: 12px 50px 12px 0;
+	}
+
+	#TagMenu {
+		border-bottom: 2px solid #333;
+		z-index: 400;
+	}
+
 	#TagMenu {
 		top: 56px;
 		left: 0;
@@ -259,13 +271,8 @@ ul#TargetMenu li a.tag {
 	ul#TargetMenu {
 		margin: 0;
 		padding: 0;
-		background-blend-mode: lighten;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
+		display: none;
 		text-align: center;
-		border-bottom: 2px solid #000;
 	}
 
 	ul#TargetMenu li {
@@ -283,10 +290,13 @@ ul#TargetMenu li a.tag {
 		border-top: 0;
 	}
 
+	ul#TargetMenu li#last {
+		border-bottom: 0;
+	}
+
 	#TextContents {
 		flex: 1;
-		margin-left: 0;
-		margin-top: 120px;
+		margin-top: 70px;
 		position: relative;
 	}
 }
