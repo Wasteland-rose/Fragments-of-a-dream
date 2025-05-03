@@ -63,6 +63,15 @@
 				border-bottom: none;
 			}
 
+/*-------------------- MAIL LINK --------------------*/
+
+#send_mail, #mail_address {
+	margin: 5px 0;
+}
+	#send_mail a {
+		text-decoration: underline;
+	}
+
 /*-------------------- Other LIST --------------------*/
 
 dt {

@@ -59,6 +59,7 @@ $(document).ready(function () {
 				'<dt>CONTACT</dt>' +
 					'<dd>' +
 						'<div id="send_mail"><a href="mailto:itonekaei@gmail.com">メールを送る</a></div>' +
+						'<div id="mail_address"><input type="text" value="itonekaei@gmail.com" onclick="this.select()" readonly></div>' +
 							'<hr>' +
 								'<div class="text-small">件名には「商用」「二次創作」など分かりやすくしてください。</div>' +
 					'</dd>' +
