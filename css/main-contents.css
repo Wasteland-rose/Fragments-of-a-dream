@@ -1,0 +1,75 @@
+body {
+	background: #eee;
+}
+main {
+	line-height: 30px;
+	font-size: 13px;
+	font-family: "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "MS P明朝", "MS 明朝", serif;
+}
+/*----------------------------------------------------------------------------------------------------*/
+
+/*------------------------- Other -------------------------*/
+.two::before {
+	content: "――";
+}
+.three::before {
+	content: "―――";
+}
+.four::before {
+	content: "――――";
+}
+.five::before {
+	content: "―――――";
+}
+	.two,.three,.four,.five,.three-reader_three,.three-reader_two  {
+		margin: 0 2px;
+		letter-spacing: -1.4px;
+	}
+
+p {
+	font-weight: 400;
+}
+
+p.asta::before {
+	content: "　　　＊　＊　＊";
+	font-weight: 600;
+}
+
+.three-reader_three::before {
+	content: "………";
+}
+
+.three-reader_two::before {
+	content: "……";
+}
+
+#wrap {
+	margin: 30px 0 0 0;
+}
+
+/*------------------------- Warning -------------------------*/
+#warning {
+	font-weight: bold;
+	white-space: pre-wrap;
+	border-bottom: 1px solid #111;
+}
+		#warning::before {
+			content: "【 警告 】";
+			display: inline-block; 
+			margin-right: 10px;
+		}
+	#warning span {
+		display: block;
+		margin-top: -50px;
+		margin-left: 90px;
+	}
+
+#warning ul {
+	margin-top: 130px;
+	margin-left: 0;
+	margin-bottom: -40px;
+}
+	#warning ul li {
+		margin-top: -100px;
+	}
+/*--------------------------------------------------------- 縦書き用 ---------------------------------------------------------*/
