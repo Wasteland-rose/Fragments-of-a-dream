@@ -51,7 +51,7 @@ $(document).ready(function () {
                 '<div class="Title_G"><a href="#">噂をすれば影が差す</a></div>' +
                 '<div class="Tag_G">タグ未定</div>' +
                 '<div class="Summary_G">未定</div>' +
-                '<div class="Writing_G">執筆日：加筆修正中</div>' +
+                '<div class="Writing_G">執筆日：執筆中</div>' +
                 '<div class="Plot_G"><a href="#">あとがき・プロットはこちら</a></div>' +
             '</div>' +
         '</div>' +
@@ -61,7 +61,7 @@ $(document).ready(function () {
                 '<div class="Title_BR"><a href="#">死神はただただ踊る</a></div>' +
                 '<div class="Tag_BR">タグ未定</div>' +
                 '<div class="Summary_BR">未定</div>' +
-                '<div class="Writing_BR">執筆日：加筆修正中</div>' +
+                '<div class="Writing_BR">執筆日：執筆中</div>' +
                 '<div class="Plot_BR"><a href="#">あとがき・プロットはこちら</a></div>' +
             '</div>' +
         '</div>' +
