@@ -72,7 +72,7 @@ $(document).ready(function () {
                 '<div class="Tag_Blu">短編 / 全年齢 / シリアス / 恋愛</div>' +
                 '<div class="Summary_Blu">「友達の家に行く約束をした」<BR />そこから始まる切なさ有りの現代ファンタジー</div>' +
                 '<div class="Writing_Blu">執筆日：加筆修正中</div>' +
-                '<div class="Plot_Blu"><a href="#">あとがき・プロットはこちら</a></div>' +
+                '<div class="Plot_Blu"><a href="plot/moonlit_night.html">あとがき・プロットはこちら</a></div>' +
             '</div>' +
         '</div>' +
     					/*---------------*/

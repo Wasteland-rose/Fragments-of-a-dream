@@ -118,4 +118,23 @@ dd {
 	font-size: 10px;
 }
 
+#update-design {
+	text-align: center;
+}
+	#update-design dt, #update-design dd {
+		width: 80%;
+		margin: 0 auto;
+	}
+	#update-design dt {
+		padding: 10px 0;
+		background: #111;
+		color: #eee;
+		font-weight: 600;
+}
+	#update-design dd {
+		padding: 10px 0;
+	}
+		#update-design dd:last-child {
+			padding-bottom: 0;
+		}
 
