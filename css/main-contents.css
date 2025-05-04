@@ -60,8 +60,6 @@ ul#Tateyoko li#Yoko {
     width: auto;
 }
 
-/* 水平ルール（区切り線） */
-
 /* ダッシュのスタイル */
 .two::before, .three::before, .four::before, .five::before {
     letter-spacing: -1.4px;
