@@ -22,18 +22,19 @@ main {
 	content: "―――――";
 }
 	.two,.three,.four,.five,.three-reader_three,.three-reader_two  {
-		margin: 0 2px;
-		letter-spacing: -1.4px;
+		margin: 0 3.5px;
 	}
+		.two::before, .three::before, .four::before, .five::before {
+			letter-spacing: -1.4px;
+		}
 
 p {
 	font-weight: 400;
 }
-
-p.asta::before {
-	content: "　　　＊　＊　＊";
-	font-weight: 600;
-}
+	p.asta::before {
+		content: "　　　＊　＊　＊";
+		font-weight: 600;
+	}
 
 .three-reader_three::before {
 	content: "………";
@@ -41,6 +42,10 @@ p.asta::before {
 
 .three-reader_two::before {
 	content: "……";
+}
+
+.space {
+	margin-right: 45px;
 }
 
 #wrap {
@@ -72,4 +77,14 @@ p.asta::before {
 	#warning ul li {
 		margin-top: -100px;
 	}
-/*--------------------------------------------------------- 縦書き用 ---------------------------------------------------------*/
+/*--------------------------------------------------------- 閲覧用文字 ---------------------------------------------------------*/
+
+@media screen and (min-width: 1024px){
+	font-size: 20px;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px){
+	font-size: 20px;
+}
+@media screen and (min-width: 600px) and (max-width: 479px){
+	font-size: 13px;
+}
