@@ -1,0 +1,176 @@
+/* 基本のスタイル設定 */
+body {
+    background: #eee;
+}
+
+main {
+    line-height: 30px;
+    font-size: 13px;
+    font-family: "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "MS P明朝", "MS 明朝", serif;
+}
+
+/* 読み方メニュー */
+#TateyomiYokoyomi {
+	width: 100%;
+	top: 55px;
+	height: 80px;
+    position: fixed;
+    display: block;
+	background: #eee;
+	border-bottom: 1px solid #666;
+}
+ul#Tateyoko {
+    margin: 0;
+    padding: 0;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    list-style: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+}
+
+ul#Tateyoko li {
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+ul#Tateyoko li#Yoko {
+    border-left: 1px solid #000;
+}
+
+/* 縦書きのラップ */
+#wrap {
+	padding-top: 40px;
+}
+#wrap.tategaki {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin: 0;
+    padding: 25px 10px;
+    text-align: left;
+    width: 100%;
+    display: block;
+    max-height: calc(40ch); /* 40文字分の高さに制限 */
+    overflow-x: auto;
+}
+
+#wrap.yokogaki {
+    writing-mode: horizontal-tb;
+    width: auto;
+}
+
+/* 水平ルール（区切り線） */
+
+/* ダッシュのスタイル */
+.two::before, .three::before, .four::before, .five::before {
+    letter-spacing: -1.4px;
+}
+
+.two::before {
+    content: "――";
+}
+
+.three::before {
+    content: "―――";
+}
+
+.four::before {
+    content: "――――";
+}
+
+.five::before {
+    content: "―――――";
+}
+
+/* 段落のスタイル */
+p {
+    font-weight: 400;
+}
+
+p.asta::before {
+    content: "　　　＊　＊　＊";
+    font-weight: 600;
+}
+
+.three-reader_three::before {
+    content: "………";
+}
+
+.three-reader_two::before {
+    content: "……";
+}
+
+/* スペースクラス */
+.space {
+    margin-right: 45px;
+}
+
+#wrap {
+    margin-top: 30px;
+}
+
+/* 警告メッセージ */
+#warning {
+    font-weight: bold;
+    white-space: pre-wrap;
+    border-bottom: 1px solid #111;
+}
+
+#warning::before {
+    content: "【 警告 】";
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#warning span {
+    display: block;
+    margin-top: -50px;
+    margin-left: 90px;
+}
+
+#warning ul {
+    margin-top: 130px;
+    margin-left: 0;
+    margin-bottom: -40px;
+}
+
+#warning ul li {
+    margin-top: -100px;
+}
+
+/* 縦読みスクロール */
+
+/* メディアクエリ */
+@media screen and (min-width: 1024px) {
+    main {
+        font-size: 15px;
+    }
+    #wrap.tategaki {
+		transform: translateY(40px);
+        height: calc(40ch); /* 40文字分の高さ */
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 769px) {
+    main {
+        font-size: 15px;
+    }
+    #wrap.tategaki {
+		transform: translateY(40px);
+        height: calc(40ch); /* 40文字分の高さ */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        font-size: 13px;
+    }
+    #wrap.tategaki {
+		transform: translateY(20px);
+        height: calc(30ch); /* 20文字分の高さ */
+        overflow: hidden; /* はみ出しを隠す */
+    }
+}

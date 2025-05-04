@@ -1,0 +1,28 @@
+body {
+	background: #eee;
+	width: 100%;
+}
+#wrap {
+	text-align: center;
+	margin: 0 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+hr {
+	border: 1px dashed #333;
+}
+/*---------------------------------------------------------------------------*/
+#AfterComent {
+	margin: 30px 0 45px;
+}
+#Plot {
+	margin: 30px 0 0;
+}
+.contents {
+	text-align: left;
+	width: 50%;
+	margin: 8px auto;
+}
+/*---------------------------------------------------------------------------*/
