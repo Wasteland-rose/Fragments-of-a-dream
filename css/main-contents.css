@@ -42,9 +42,6 @@ ul#Tateyoko li#Yoko {
 }
 
 /* 縦書きのラップ */
-#wrap {
-	padding-top: 40px;
-}
 #wrap.tategaki {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -52,8 +49,9 @@ ul#Tateyoko li#Yoko {
     padding: 25px 10px;
     text-align: left;
     width: 100%;
+    min-width: 100vw;
     display: block;
-    max-height: calc(40ch); /* 40文字分の高さに制限 */
+    max-height: calc(40ch);
     overflow-x: auto;
 }
 
@@ -145,6 +143,9 @@ p.asta::before {
 
 /* メディアクエリ */
 @media screen and (min-width: 1024px) {
+	#wrap {
+		padding-top: 40px;
+	}
     main {
         font-size: 15px;
     }
@@ -155,6 +156,9 @@ p.asta::before {
 }
 
 @media screen and (max-width: 1023px) and (min-width: 769px) {
+	#wrap {
+		padding-top: 40px;
+	}
     main {
         font-size: 15px;
     }
@@ -165,12 +169,19 @@ p.asta::before {
 }
 
 @media screen and (max-width: 768px) {
+	#wrap {
+		padding-top: 40px;
+	}
     main {
         font-size: 13px;
     }
+@media screen and (max-width: 768px) {
     #wrap.tategaki {
-		transform: translateY(20px);
-        height: calc(30ch); /* 20文字分の高さ */
-        overflow: hidden; /* はみ出しを隠す */
+        padding-top: 80px;
+        transform: translateY(20px);
+        height: calc(30ch);
+        overflow-x: auto; /* ← hidden から auto に変更 */
+        overflow-y: hidden; /* 縦スクロールは不要なら追加 */
+        min-width: 100vw; /* ← 追加 */
     }
 }
