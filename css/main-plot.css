@@ -14,10 +14,10 @@ hr {
 }
 /*---------------------------------------------------------------------------*/
 #AfterComent {
-	margin: 30px 0 45px;
+	margin: 30px 0 45px 0;
 }
 #Plot {
-	margin: 30px 0 0;
+	margin: 30px 0 0 0;
 }
 .contents {
 	text-align: left;
