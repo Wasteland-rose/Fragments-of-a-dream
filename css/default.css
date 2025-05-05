@@ -8,7 +8,6 @@ body, header, footer, nav, #MenuContent ul, #MenuContent ul li, #HpRule, #HpRule
 header, footer, #MenuContent ul li a {
 	font-family: "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "MS P明朝", "MS 明朝", serif;
 }
-
 /*-------------------- z-index --------------------*/
 header, footer {
 	z-index: 500;

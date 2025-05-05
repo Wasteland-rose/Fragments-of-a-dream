@@ -41,6 +41,11 @@ ul#Tateyoko li#Yoko {
     border-left: 1px solid #000;
 }
 
+/* ラップ */
+#wrap {
+	padding: 25px 0 70px 0;
+}
+
 /* 縦書きのラップ */
 #wrap.tategaki {
     writing-mode: vertical-rl;
@@ -58,6 +63,18 @@ ul#Tateyoko li#Yoko {
 #wrap.yokogaki {
     writing-mode: horizontal-tb;
     width: auto;
+}
+
+/* 戻ると続き */
+ul#ReadingMenu {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 180px;
 }
 
 /* ダッシュのスタイル */
