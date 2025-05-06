@@ -19,7 +19,7 @@
 }
 
 main {
-	padding-top: 30px;
+	padding-top: 80px;
 }
 /*-------------------- Update --------------------*/
 
@@ -83,9 +83,6 @@ main {
 
 /*-------------------- Other LIST --------------------*/
 
-dl {
-	margin-top: 75px;
-}
 dt {
 	padding: 10px 15px;
 	background: #111;
