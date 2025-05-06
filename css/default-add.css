@@ -83,6 +83,9 @@ main {
 
 /*-------------------- Other LIST --------------------*/
 
+dl {
+	margin-top: 75px;
+}
 dt {
 	padding: 10px 15px;
 	background: #111;
