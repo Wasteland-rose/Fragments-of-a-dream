@@ -1,7 +1,5 @@
 // script.js
 
-//一部chatGPTに聞きました。
-
 //----------------------------------------------------------------------------------------------------
 $(document).ready(function () {
     // .contentの表示
@@ -45,24 +43,25 @@ $(document).ready(function () {
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     $("#TextContents").html(
-    					/*---------------*/
-        '<div class="content ShortStory">' +
-            '<div class="G">' +
-                '<div class="Title_G"><a href="#">噂をすれば影が差す</a></div>' +
-                '<div class="Tag_G">タグ未定</div>' +
-                '<div class="Summary_G">未定</div>' +
-                '<div class="Writing_G">執筆日：執筆中</div>' +
-                '<div class="Plot_G"><a href="#">あとがき・プロットはこちら</a></div>' +
-            '</div>' +
-        '</div>' +
-    					/*---------------*/
-        '<div class="content LongStory R20">' +
+    					/*-------
+        '<div class="content LongStory R20 Horror Serious Drama Death">' +
             '<div class="BR">' +
                 '<div class="Title_BR"><a href="#">死神はただただ踊る</a></div>' +
-                '<div class="Tag_BR">タグ未定</div>' +
-                '<div class="Summary_BR">未定</div>' +
+                '<div class="Tag_BR">長編 / R20 / ホラー / シリアス / ドラマ / 死</div>' +
+                '<div class="Summary_BR">「僕は生きてちゃいけないって分かっていたんだ」</div>' +
                 '<div class="Writing_BR">執筆日：執筆中</div>' +
                 '<div class="Plot_BR"><a href="#">あとがき・プロットはこちら</a></div>' +
+            '</div>' +
+        '</div>' +
+        				--------*/
+    					/*---------------*/
+        '<div class="content ShortStory R15 Horror Unown">' +
+            '<div class="G">' +
+                '<div class="Title_G"><a href="main/speak_of_the_devil_and_he_shall_appear.html">噂をすれば影が差す</a></div>' +
+                '<div class="Tag_G">短編 / R15 / ホラー / 意味不明</div>' +
+                '<div class="Summary_G">追われる恐怖<BR />視えない恐怖</div>' +
+                '<div class="Writing_G">執筆日：2025/05/06</div>' +
+                '<div class="Plot_G"><a href="main/plot/speak_of_the_devil_and_he_shall_appear.html">あとがき・プロットはこちら</a></div>' +
             '</div>' +
         '</div>' +
     					/*---------------*/

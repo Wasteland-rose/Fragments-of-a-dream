@@ -77,6 +77,11 @@ ul#ReadingMenu {
     gap: 180px;
 }
 
+/* 警告文 */
+#warning {
+	margin-bottom: 4em;
+}
+
 /* ダッシュのスタイル */
 .two::before, .three::before, .four::before, .five::before {
     letter-spacing: -1.4px;
@@ -125,34 +130,6 @@ p.asta::before {
     margin-top: 30px;
 }
 
-/* 警告メッセージ */
-#warning {
-    font-weight: bold;
-    white-space: pre-wrap;
-    border-bottom: 1px solid #111;
-}
-
-#warning::before {
-    content: "【 警告 】";
-    display: inline-block;
-    margin-right: 10px;
-}
-
-#warning span {
-    display: block;
-    margin-top: -50px;
-    margin-left: 90px;
-}
-
-#warning ul {
-    margin-top: 130px;
-    margin-left: 0;
-    margin-bottom: -40px;
-}
-
-#warning ul li {
-    margin-top: -100px;
-}
 
 /* 縦読みスクロール */
 

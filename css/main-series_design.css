@@ -1,7 +1,8 @@
 body {
 	background: #eee;
 }
-/*----------------------------------------------------------------------------------------------------*/
+
+/*シリーズ　タイトル*/
 ul#ContentMenuTitle {
 	margin: 0;
 	padding: 0;
@@ -30,3 +31,9 @@ ul#ContentMenuTitle li {
 			-ms-transition: 3s;
 			-o-transition: 3s;
 		}
+/*注意書き*/
+#First-Warning {
+	font-size: 11px;
+	display: block;
+	margin: 45px;
+}

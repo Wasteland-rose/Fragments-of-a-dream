@@ -3,6 +3,7 @@
    ----------------------------------------------------------------------------------------------------*/
 
 #index-image {
+	margin-top: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -12,6 +13,14 @@
 		width: 300px;
 		 filter: drop-shadow(5px 5px 5px #333);
 	}
+
+#index-wrap {
+	margin: 65px 0 40px 0;
+}
+
+main {
+	padding-top: 30px;
+}
 /*-------------------- Update --------------------*/
 
 #UPdate {
