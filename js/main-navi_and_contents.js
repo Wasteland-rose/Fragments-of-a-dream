@@ -59,7 +59,7 @@ $(document).ready(function () {
             '<div class="G">' +
                 '<div class="Title_G"><a href="main/speak_of_the_devil_and_he_shall_appear.html">噂をすれば影が差す</a></div>' +
                 '<div class="Tag_G">短編 / R15 / ホラー / 意味不明</div>' +
-                '<div class="Summary_G">追われる恐怖<BR />視えない恐怖</div>' +
+                '<div class="Summary_G">町と町が分断された５年後、謎の病が広がる。親友が病に患って孤立を強いられる中、町を出る決意をした主人公。しかし、親友が異変し始める。――逃げられない運命から主人公はどうするのか？<BR />『終われる恐怖、視えない恐怖』</div>' +
                 '<div class="Writing_G">執筆日：2025/05/06</div>' +
                 '<div class="Plot_G"><a href="main/plot/speak_of_the_devil_and_he_shall_appear.html">あとがき・プロットはこちら</a></div>' +
             '</div>' +
@@ -69,7 +69,7 @@ $(document).ready(function () {
             '<div class="Blu">' +
                 '<div class="Title_Blu"><a href="main/moonlit_night.html">月夜</a></div>' +
                 '<div class="Tag_Blu">短編 / 全年齢 / シリアス / 恋愛</div>' +
-                '<div class="Summary_Blu">「友達の家に行く約束をした」<BR />そこから始まる切なさ有りの現代ファンタジー</div>' +
+                '<div class="Summary_Blu">「都会に飽きた」――そう言う友達に会いに行く道中、現代ではありえない洋館に辿り着く。そこで出会った家主は主人公の事を知っている様子。封鎖された空間で主人公は過去と対峙する。<BR />切なさ有りの現代ファンタジー</div>' +
                 '<div class="Writing_Blu">執筆日：2025/05/04</div>' +
                 '<div class="Plot_Blu"><a href="main/plot/moonlit_night.html">あとがき・プロットはこちら</a></div>' +
             '</div>' +
