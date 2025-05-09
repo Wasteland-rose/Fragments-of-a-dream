@@ -51,6 +51,7 @@ ul#TargetMenu li a.tag {
     color: #000;
 }
 
+
 /*----------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
@@ -89,6 +90,13 @@ ul#TargetMenu li a.tag {
 
 	ul#TargetMenu li#last {
 		border-bottom: 2px solid #000;
+	}
+	/* search */
+	#keywordSearch {
+		display: block;
+		position: fixed;
+		margin-top: 480px;
+		width: 120px;
 	}
 
 	/* Merge TextContents into one media query */
@@ -141,6 +149,19 @@ ul#TargetMenu li a.tag {
 		flex: 1;
 		margin-left: 150px;
 		position: relative;
+	}
+	#keywordSearch {
+		display: block;
+		position: fixed;
+		margin-top: 480px;
+		width: 120px;
+	}
+	/* search */
+	#keywordSearch {
+		display: block;
+		position: fixed;
+		margin-top: 480px;
+		width: 120px;
 	}
 }
 
@@ -199,6 +220,13 @@ ul#TargetMenu li a.tag {
 		margin-left: 0;
 		position: relative;
 	}
+	/* search */
+	#keywordSearch {
+		display: block;
+		position: absolute;
+		margin-top: 75px;
+		width: 120px;
+	}
 }
 
 @media screen and (min-width: 480px) and (max-width: 599px) {
@@ -249,6 +277,15 @@ ul#TargetMenu li a.tag {
 		margin-top: 70px;
 		position: relative;
 	}
+	/* search */
+	#keywordSearch {
+		display: block;
+		position: fixed;
+		margin-top: 4px;
+		margin-left: 120px;
+		width: 200px;
+		z-index: 9999;
+	}
 }
 
 @media screen and (max-width: 479px) {
@@ -298,5 +335,14 @@ ul#TargetMenu li a.tag {
 		flex: 1;
 		margin-top: 70px;
 		position: relative;
+	}
+	/* search */
+	#keywordSearch {
+		display: block;
+		position: fixed;
+		margin-top: 4px;
+		margin-left: 50px;
+		width: 200px;
+		z-index: 9999;
 	}
 }

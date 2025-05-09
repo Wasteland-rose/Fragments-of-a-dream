@@ -1,6 +1,3 @@
-// script.js
-
-//----------------------------------------------------------------------------------------------------
 $(document).ready(function () {
     // .contentの表示
     $(".content").hide();
@@ -31,61 +28,77 @@ $(document).ready(function () {
             '<li><a href="#" class="tag" data-target="Death">死</a></li>' +
             '<li><a href="#" class="tag" data-target="Flow">ノリ</a></li>' +
             '<li id="last"><a href="#" class="tag" data-target="Unown">意味不明</a></li>' +
-        '</ul>'
+        '</ul>' 
+    );
+    $("#SearchPosition").html(
+        '<input type="text" id="keywordSearch" placeholder="キーワードで検索">'
     );
 
-    // ナビゲーションボタンのクリックイベント
-    $("#NavButton").on('click', function() {
-        $("#NavMenuContent").toggleClass("rotated");
-        $("#TargetMenu").slideToggle();
-    });
+    // ナビゲーションボタンのクリックイベント（jQuery）
+// jQueryでの処理
+$("#NavButton").on('click', function () {
+    // SVGアイコン（#NavMenuContent）に回転クラスをトグル
+    $("#NavMenuContent").toggleClass("rotated");
+    // メニューの表示/非表示
+    $("#TargetMenu").slideToggle();
+});
 
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+    // JavaScript側のクリック処理（安全のために併用）
+    const button = document.getElementById('NavButton');
+    const chevron = document.getElementById('NavMenuContent');
+
+    if (button && chevron) {
+        button.addEventListener('click', () => {
+            chevron.classList.toggle('rotated');
+        });
+    }
+
+    // テキストコンテンツの表示
     $("#TextContents").html(
-    					/*-------
+    	/*
+        '<div class="search">' +
         '<div class="content LongStory R20 Horror Serious Drama Death">' +
-            '<div class="BR">' +
-                '<div class="Title_BR"><a href="#">死神はただただ踊る</a></div>' +
-                '<div class="Tag_BR">長編 / R20 / ホラー / シリアス / ドラマ / 死</div>' +
-                '<div class="Summary_BR">「僕は生きてちゃいけないって分かっていたんだ」</div>' +
-                '<div class="Writing_BR">執筆日：執筆中</div>' +
-                '<div class="Plot_BR"><a href="#">あとがき・プロットはこちら</a></div>' +
-            '</div>' +
-        '</div>' +
-        				--------*/
-    					/*---------------*/
+        '<div class="BR">' +
+        '<div class="Title_BR"><a href="main/theGrimReaperJustDances.html">死神はただただ踊る</a></div>' +
+        '<div class="Tag_BR">長編 / R20 / ホラー / シリアス / ドラマ / 死</div>' +
+        '<div class="Summary_BR">壊れた魂が欲望と嫌悪の狭間で静かに育っていく。田舎町で誰にも気づかれず芽吹いた異常は、やがて血と肉の饗宴へと変わり――死が名を呼ぶその日、すべてが終わる。<BR />「僕は生きてちゃいけないって分かっていたんだ」</div>' +
+        '<div class="Writing_BR">執筆日：執筆中</div>' +
+        '<div class="Plot_BR"><a href="main/plot/theGrimReaperJustDances.html">あとがき・プロットはこちら</a></div>' +
+        '</div></div></div>' +
+		*/
+        '<div class="search">' +
         '<div class="content ShortStory R15 Horror Unown">' +
-            '<div class="G">' +
-                '<div class="Title_G"><a href="main/speak_of_the_devil_and_he_shall_appear.html">噂をすれば影が差す</a></div>' +
-                '<div class="Tag_G">短編 / R15 / ホラー / 意味不明</div>' +
-                '<div class="Summary_G">町と町が分断された５年後、謎の病が広がる。親友が病に患って孤立を強いられる中、町を出る決意をした主人公。しかし、親友が異変し始める。――逃げられない運命から主人公はどうするのか？<BR />『終われる恐怖、視えない恐怖』</div>' +
-                '<div class="Writing_G">執筆日：2025/05/06</div>' +
-                '<div class="Plot_G"><a href="main/plot/speak_of_the_devil_and_he_shall_appear.html">あとがき・プロットはこちら</a></div>' +
-            '</div>' +
-        '</div>' +
-    					/*---------------*/
+        '<div class="G">' +
+        '<div class="Title_G"><a href="main/speak_of_the_devil_and_he_shall_appear.html">噂をすれば影が差す</a></div>' +
+        '<div class="Tag_G">短編 / R15 / ホラー / 意味不明</div>' +
+        '<div class="Summary_G">町と町が分断された５年後、謎の病が広がる。親友が病に患って孤立を強いられる中、町を出る決意をした主人公。しかし、親友が異変し始める。――逃げられない運命から主人公はどうするのか？<BR />『終われる恐怖、視えない恐怖』</div>' +
+        '<div class="Writing_G">執筆日：2025/05/06</div>' +
+        '<div class="Plot_G"><a href="main/plot/speak_of_the_devil_and_he_shall_appear.html">あとがき・プロットはこちら</a></div>' +
+        '</div></div></div>' +
+
+        '<div class="search">' +
         '<div class="content ShortStory AllAges Serious Love">' +
-            '<div class="Blu">' +
-                '<div class="Title_Blu"><a href="main/moonlit_night.html">月夜</a></div>' +
-                '<div class="Tag_Blu">短編 / 全年齢 / シリアス / 恋愛</div>' +
-                '<div class="Summary_Blu">「都会に飽きた」――そう言う友達に会いに行く道中、現代ではありえない洋館に辿り着く。そこで出会った家主は主人公の事を知っている様子。封鎖された空間で主人公は過去と対峙する。<BR />切なさ有りの現代ファンタジー</div>' +
-                '<div class="Writing_Blu">執筆日：2025/05/04</div>' +
-                '<div class="Plot_Blu"><a href="main/plot/moonlit_night.html">あとがき・プロットはこちら</a></div>' +
-            '</div>' +
-        '</div>' +
-    					/*---------------*/
+        '<div class="Blu">' +
+        '<div class="Title_Blu"><a href="main/moonlit_night.html">月夜</a></div>' +
+        '<div class="Tag_Blu">短編 / 全年齢 / シリアス / 恋愛</div>' +
+        '<div class="Summary_Blu">「都会に飽きた」――そう言う友達に会いに行く道中、現代ではありえない洋館に辿り着く。そこで出会った家主は主人公の事を知っている様子。封鎖された空間で主人公は過去と対峙する。<BR />切なさ有りの現代ファンタジー</div>' +
+        '<div class="Writing_Blu">執筆日：2025/05/04</div>' +
+        '<div class="Plot_Blu"><a href="main/plot/moonlit_night.html">あとがき・プロットはこちら</a></div>' +
+        '</div></div></div>' +
+
+        '<div class="search">' +
         '<div class="content LongStory R15 Drama Horror">' +
-            '<div class="Bla">' +
-                '<div class="Title_Bla"><a href="main/nonfiction.html">言葉は要らず</a></div>' +
-                '<div class="Tag_Bla">長編 / R15 / ドラマ / ホラー</div>' +
-                '<div class="Summary_Bla">「実際に遭った怖い話」<BR />オチなどないショート集<BR />何か起きた時に執筆します。</div>' +
-                '<div class="Writing_Bla">最終執筆日：2025/04/27</div>' +
-            '</div>' +
-        '</div>'
+        '<div class="Bla">' +
+        '<div class="Title_Bla"><a href="main/nonfiction.html">言葉は要らず</a></div>' +
+        '<div class="Tag_Bla">長編 / R15 / ドラマ / ホラー</div>' +
+        '<div class="Summary_Bla">「実際に遭った怖い話」<BR />オチなどないショート集<BR />何か起きた時に執筆します。</div>' +
+        '<div class="Writing_Bla">最終執筆日：2025/04/27</div>' +
+        '</div></div></div>'
     );
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
     // タグのクリックイベント
     $(document).on("click", ".tag", function (e) {
         e.preventDefault();
@@ -100,14 +113,16 @@ $(document).ready(function () {
         }, 200);
     });
 
-    // ここに追加する部分
-    const button = document.getElementById('NavButton');
-    const chevron = document.getElementById('NavMenuContent');
-
-    if (button && chevron) {
-        button.addEventListener('click', () => {
-            chevron.classList.toggle('rotated');
+    // キーワード検索
+    $("#keywordSearch").on("input", function () {
+        let keyword = $(this).val().toLowerCase();
+        $(".search").each(function () {
+            let text = $(this).text().toLowerCase();
+            if (text.includes(keyword)) {
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
         });
-    }
+    });
 });
-//----------------------------------------------------------------------------------------------------
