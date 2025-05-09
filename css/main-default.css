@@ -52,6 +52,10 @@ ul#TargetMenu li a.tag {
 }
 
 
+#keywordSearch {
+	padding: 3px 5px;
+}
+
 /*----------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
@@ -225,7 +229,7 @@ ul#TargetMenu li a.tag {
 		display: block;
 		position: absolute;
 		margin-top: 75px;
-		width: 120px;
+		width: 150px;
 	}
 }
 
