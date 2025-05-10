@@ -15,8 +15,9 @@ $("#nonfiction-content-decoartion-menu").html(
 //Fiction
 $("#tGRJD").html(
 	'<ul id="ContentMenuTitle">' +
-		'<li><a href="fiction/tGRJD-1.html">上</a></li>' +
-		'<li><a href="fiction/tGRJD-2.html">中</a></li>' +
-		'<li><a href="fiction/tGRJD-3.html">下</a></li>' +
+		'<li><a href="fiction/tGRJD-1.html">序章</a></li>' +
+		'<li><a href="fiction/tGRJD-2.html">上</a></li>' +
+		'<li><a href="fiction/tGRJD-3.html">中</a></li>' +
+		'<li><a href="fiction/tGRJD-4.html">下</a></li>' +
 	'</ul>'
 );

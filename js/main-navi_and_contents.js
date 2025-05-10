@@ -58,7 +58,7 @@ $("#NavButton").on('click', function () {
 
     // テキストコンテンツの表示
     $("#TextContents").html(
-    	/*
+
         '<div class="search">' +
         '<div class="content LongStory R20 Horror Serious Drama Death">' +
         '<div class="BR">' +
@@ -68,7 +68,7 @@ $("#NavButton").on('click', function () {
         '<div class="Writing_BR">執筆日：執筆中</div>' +
         '<div class="Plot_BR"><a href="main/plot/theGrimReaperJustDances.html">あとがき・プロットはこちら</a></div>' +
         '</div></div></div>' +
-		*/
+
         '<div class="search">' +
         '<div class="content ShortStory R15 Horror Unown">' +
         '<div class="G">' +
