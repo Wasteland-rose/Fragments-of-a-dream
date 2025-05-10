@@ -10,7 +10,7 @@ header, footer, #MenuContent ul li a {
 }
 /*-------------------- z-index --------------------*/
 header, footer {
-	z-index: 500;
+	z-index: 8888;
 }
 nav, #MenuContent ul {
 	z-index: 999;
