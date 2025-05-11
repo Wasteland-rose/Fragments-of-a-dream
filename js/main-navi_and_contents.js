@@ -60,6 +60,15 @@ $("#NavButton").on('click', function () {
     $("#TextContents").html(
 
         '<div class="search">' +
+        '<div class="content LongStory R20 Horror">' +
+        '<div class="BR">' +
+        '<div class="Title_BR"><a href="#">Cruel world</a></div>' +
+        '<div class="Tag_BR">未定</div>' +
+        '<div class="Summary_BR">未定</div>' +
+        '<div class="Writing_BR">執筆日：執筆中</div>' +
+        '</div></div></div>' +
+
+        '<div class="search">' +
         '<div class="content LongStory R20 Horror Serious Drama Death">' +
         '<div class="BR">' +
         '<div class="Title_BR"><a href="main/theGrimReaperJustDances.html">死神はただただ踊る</a></div>' +
