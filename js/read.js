@@ -1,51 +1,45 @@
 document.addEventListener('DOMContentLoaded', function () {
     const wrap = document.getElementById("wrap");
 
-    // 25文字ごとに改行を強制的に追加
     function adjustContent() {
-        const textContainer = wrap;
-        let text = textContainer.innerHTML;
+        const html = wrap.innerHTML;
 
-        // 正規表現でHTMLタグ以外のテキスト部分を取り出し、25文字ごとに改行
-        const lines = text.split(/(<[^>]+>)/g); // タグを保持しつつ分割
+        // HTMLタグとテキストに分割、指定タグのみ許可
+        const allowedTags = ['br', 'hr', 'ul', 'li', 'ol'];
+        const segments = html.split(/(<[^>]+>)/g);
 
-        let formattedText = '';
-        let lineLength = 25;  // 25文字ごとに改行
+        let result = '';
 
-        lines.forEach(line => {
-            if (line.match(/<[^>]+>/)) {
-                // タグはそのまま保持
-                formattedText += line;
-            } else {
-                // それ以外のテキスト部分を25文字ごとに分割して改行を挿入
-                while (line.length > lineLength) {
-                    formattedText += line.slice(0, lineLength) + '<br />';  // 改行を追加
-                    line = line.slice(lineLength);  // 残りの部分を次に回す
+        segments.forEach(segment => {
+            const tagMatch = segment.match(/^<\s*\/?\s*([a-z0-9]+)[^>]*>$/i);
+            if (tagMatch) {
+                const tagName = tagMatch[1].toLowerCase();
+
+                if (allowedTags.includes(tagName)) {
+                    result += segment; // 許可されたタグのみ追加
                 }
-                formattedText += line;  // 最後に残ったテキストを追加
+                // それ以外のタグは無視
+            } else {
+                result += segment; // テキストはそのまま追加（改行制御なし）
             }
         });
 
-        // 結果として加工されたテキストを反映
-        textContainer.innerHTML = formattedText;
+        wrap.innerHTML = result;
     }
 
-    // 初期読み込み時に改行を調整
+    // 初回実行
     adjustContent();
 
-    // 縦書きや横書きの切り替え時にも再度調整
-    const tateBtn = document.getElementById("Tate");
-    const yokoBtn = document.getElementById("Yoko");
-
-    tateBtn.addEventListener("click", () => {
+    // 書字方向の切り替え時
+    document.getElementById("Tate").addEventListener("click", () => {
         wrap.classList.remove("yokogaki");
         wrap.classList.add("tategaki");
-        adjustContent(); // 縦書き切替時に再度改行処理
+        adjustContent();
     });
 
-    yokoBtn.addEventListener("click", () => {
+    document.getElementById("Yoko").addEventListener("click", () => {
         wrap.classList.remove("tategaki");
         wrap.classList.add("yokogaki");
-        adjustContent(); // 横書き切替時に再度改行処理
+        adjustContent();
     });
 });
