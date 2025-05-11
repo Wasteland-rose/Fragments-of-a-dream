@@ -58,6 +58,7 @@ ul#Tateyoko li#Yoko {
     display: block;
     max-height: calc(40ch);
     overflow-x: auto;
+    overflow-y: hidden;
 }
 
 #wrap.yokogaki {
