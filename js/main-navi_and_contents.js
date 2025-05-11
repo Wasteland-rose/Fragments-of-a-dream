@@ -65,7 +65,7 @@ $("#NavButton").on('click', function () {
         '<div class="Title_BR"><a href="main/theGrimReaperJustDances.html">死神はただただ踊る</a></div>' +
         '<div class="Tag_BR">長編 / R20 / ホラー / シリアス / ドラマ / 死</div>' +
         '<div class="Summary_BR">壊れた魂が欲望と嫌悪の狭間で静かに育っていく。田舎町で誰にも気づかれず芽吹いた異常は、やがて血と肉の饗宴へと変わり――死が名を呼ぶその日、すべてが終わる。<BR />「僕は生きてちゃいけないって分かっていたんだ」</div>' +
-        '<div class="Writing_BR">執筆日：執筆中</div>' +
+        '<div class="Writing_BR">執筆日：2025/05/11</div>' +
         '<div class="Plot_BR"><a href="main/plot/theGrimReaperJustDances.html">あとがき・プロットはこちら</a></div>' +
         '</div></div></div>' +
 
