@@ -390,8 +390,7 @@ ul#TargetMenu li a.tag {
 	#sortButtons {
 		display: block;
 		position: absolute;
-		margin-top: 4px;
+		margin-top: 70px;
 		right: 20px;
-		z-index: 7777;
 	}
 }
