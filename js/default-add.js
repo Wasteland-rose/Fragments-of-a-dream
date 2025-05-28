@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 	$("#UPdate").html(
 		'<div id="UpDate-Add">' +
-			'UP DATE：<a href="UpDate.html">2025/5/14</a>' +
+			'UP DATE：<a href="UpDate.html">2025/5/29</a>' +
 			'<button id="reloadButton">' +
 				'<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">' +
 					'<path d="M8 5l7 7-7 7" fill="none" stroke="black" stroke-width="2"/>' +

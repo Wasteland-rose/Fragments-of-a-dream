@@ -56,6 +56,11 @@ ul#TargetMenu li a.tag {
 	padding: 3px 5px;
 }
 
+#sortButtons a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 /*----------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
@@ -109,6 +114,13 @@ ul#TargetMenu li a.tag {
 		margin-left: 150px;
 		position: relative;
 	}
+
+	/* 更新順 / 古い順 */
+	#sortButtons {
+		display: block;
+		position: fixed;
+		margin-top: 515px;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -160,12 +172,20 @@ ul#TargetMenu li a.tag {
 		margin-top: 480px;
 		width: 120px;
 	}
+
 	/* search */
 	#keywordSearch {
 		display: block;
 		position: fixed;
 		margin-top: 480px;
 		width: 120px;
+	}
+
+	/* 更新順 / 古い順 */
+	#sortButtons {
+		display: block;
+		position: fixed;
+		margin-top: 515px;
 	}
 }
 
@@ -231,6 +251,14 @@ ul#TargetMenu li a.tag {
 		margin-top: 75px;
 		width: 150px;
 	}
+
+	/* 更新順 / 古い順 */
+	#sortButtons {
+		display: block;
+		position: absolute;
+		margin-top: 80px;
+		right: 20px;
+	}
 }
 
 @media screen and (min-width: 480px) and (max-width: 599px) {
@@ -290,6 +318,15 @@ ul#TargetMenu li a.tag {
 		width: 200px;
 		z-index: 7777;
 	}
+
+	/* 更新順 / 古い順 */
+	#sortButtons {
+		display: block;
+		position: absolute;
+		margin-top: 4px;
+		right: 20px;
+		z-index: 7777;
+	}
 }
 
 @media screen and (max-width: 479px) {
@@ -347,6 +384,14 @@ ul#TargetMenu li a.tag {
 		margin-top: 4px;
 		margin-left: 50px;
 		width: 200px;
+		z-index: 7777;
+	}
+	/* 更新順 / 古い順 */
+	#sortButtons {
+		display: block;
+		position: absolute;
+		margin-top: 4px;
+		right: 20px;
 		z-index: 7777;
 	}
 }
