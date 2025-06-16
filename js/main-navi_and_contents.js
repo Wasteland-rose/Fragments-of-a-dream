@@ -36,16 +36,12 @@ $(document).ready(function () {
     $("#TextContents").html(
         '<div class="search">' +
             '<div class="content ShortStory R15 Horror Serious Flow" data-date="2025-06-30">' +
-            '<div class="O">' +
-            '<div class="Title_O"><a href="#">Witch</a></div>' +
-	            '<div class="Tag_O">短編 / R15 / ホラー / シリアス / ノリ</div>' +
-	            '<div class="Summary_O">執筆中</div>' +
-	            '<div class="Writing_O">執筆日：執筆中</div>' +
-            '<div class="Title_O"><a href="#">Ridicule</a></div>' +
-	            '<div class="Tag_O">短編 / R15 / ホラー / シリアス / ノリ</div>' +
-	            '<div class="Summary_O">執筆中</div>' +
-	            '<div class="Writing_O">執筆日：執筆中</div>' +
-            '<div class="Plot_O"><a href="#">あとがき・プロットはこちら</a></div>' +
+            '<div class="Pu">' +
+            '<div class="Title_Pu"><a href="#">Ridicule</a></div>' +
+	            '<div class="Tag_Pu">短編 / R15 / ホラー / シリアス / ノリ</div>' +
+	            '<div class="Summary_Pu">厳格な規則と謎に満ちた学園に売られた妹・ニアが、兄ノアとともに狂気と恐怖の中で運命を切り開く。読者参加型のダークファンタジー物語。<BR />分岐エンド有</div>' +
+	            '<div class="Writing_Pu">執筆日：執筆中</div>' +
+            '<div class="Plot_Pu"><a href="#">あとがき</a></div>' +
             '</div></div></div>' +
 
         '<div class="search">' +
