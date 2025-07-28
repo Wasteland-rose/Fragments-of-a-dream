@@ -5,54 +5,52 @@
 $(document).ready(function () {
 //--------------------------------------------------
 
-	$("#UPdate").html(
-		'<div id="UpDate-Add">' +
-			'UP DATE：<a href="UpDate.html">2025/5/29</a>' +
-			'<button id="reloadButton">' +
-				'<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">' +
-					'<path d="M8 5l7 7-7 7" fill="none" stroke="black" stroke-width="2"/>' +
-				'</svg>' +
-			'</button>' +
-		'</div>'
-	);
+$("#UPdate").html(
+ '<div id="UpDate-Add">' +
+  'UP DATE：<a href="UpDate.html">2025/7/28</a>' +
+  '<button id="reloadButton">' +
+   '<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">' +
+    '<path d="M8 5l7 7-7 7" fill="none" stroke="black" stroke-width="2"/>' +
+   '</svg>' +
+  '</button>' +
+'</div>'
+);
 
-	$("#reloadButton").click(function() {
-		location.reload();
-	});
-
-//--------------------------------------------------
-
-	$("#HpRule").html(
-		'<div id="HpRules">' +
-			'<ul>' +
-				'<li>' + '作品のサンプル利用や二次創作は歓迎です。' + '</li>' +
-				'<li>' + 'その際は、「霞影 絃音」または「夢の破片」の記載をお願いします。' + '</li>' +
-				'<li>' + 'キャラクターやエンディングの変更は自由ですが、物語の大筋は変えないでください。' + '</li>' +
-				'<li>' + '※商用利用の場合、事前にメールでご報告をお願いします。<br />メールアドレスはBIOGRAPHYページから確認できます。<br />個人情報は流布しません。' + '</li>' +
-				'<li>' + '最新情報はBIOGRAPHYのX（旧Twitter）で確認できます。<br />変化がない場合は時間を置くか、日付横の「＞」を押してください。' + '</li>' +
-				'<li>' + '更新履歴は日付をタップするか、<a href="UpDate.html" style="text-decoration: underline;">こちら</a>からご確認いただけます。' + '</li>' +
-			'</ul>' +
-		'</div>'
-	);
+$("#reloadButton").click(function() {
+ location.reload();
+});
 
 //--------------------------------------------------
 
-	$("#bio").html(
-		'<div id="Bio">' +
-			'<dl>' +
-				'<dt>NAME</dt>' +
-					'<dd>' +
-						'霧影 絃音　(かえい いとね)' +
-					'</dd>' +
-				'<dt>BLOOD TYPE</dt>' +
-					'<dd>' +
-						'O' +
-					'</dd>' +
-				'<dt>HISTORY</dt>' +
-					'<dd>' +
-						'未成年の頃から活動を始める。<BR />25年までに様々なことがあり、他者との交流を一部停止する。<p>尊敬している作品やアーティストが作品の一部に影響を与える事に悩んでいる。<BR />キャラクターを作って舞台に上がらせているためプロットが作れないでいる。</p>2025/4　下旬、綺麗な作品ができてファビコンとかアイコンにして満足している。<BR />同月、ＨＰ作りをするのに再度jsとcssの勉強をする。<BR />結構つらかった。' +
-					'</dd>' +
-				'<dt>SNS</dt>' +
+$("#HpRule").html(
+ '<div id="HpRules">' +
+  '<ul>' +
+   '<li>' + '作品のサンプル利用や二次創作は歓迎です。' + '</li>' +
+   '<li>' + 'その際は、「霞影 絃音」または「夢の破片」の記載をお願いします。' + '</li>' +
+   '<li>' + 'キャラクターやエンディングの変更は自由ですが、物語の大筋は変えないでください。' + '</li>' +
+   '<li>' + '※商用利用の場合、事前にメールでご報告をお願いします。<br />メールアドレスはBIOGRAPHYページから確認できます。<br />個人情報は流布しません。' + '</li>' +
+   '<li>' + '最新情報はBIOGRAPHYのX（旧Twitter）で確認できます。<br />変化がない場合は時間を置くか、日付横の「＞」を押してください。' + '</li>' +
+   '<li>' + '更新履歴は日付をタップするか、<a href="UpDate.html" style="text-decoration: underline;">こちら</a>からご確認いただけます。' + '</li>' +
+   '</ul>' +
+ '</div>'
+);
+
+//--------------------------------------------------
+
+$("#bio").html(
+ '<div id="BioImg">' +
+   '<img src="images/Wasteland_Rose.png" oncontextmenu="return false;">' +
+ '</div>' +
+ '<div id="Bio">' +
+  '<dt>NAME</dt>' +
+  '<dd>' +
+     '霧影 絃音　(かえい いとね)' +
+  '</dd>' +
+  '<dt>BLOOD TYPE</dt>' +
+  '<dd>' +
+     'O' +
+  '</dd>' +
+  '<dt>SNS</dt>' +
 					'<dd>' +
 						'<a href="https://x.com/itonekaei_/"><img src="images/X_icon.png"></a>' +
 					'</dd>' +

@@ -16,12 +16,20 @@
 			<meta name="keywords" content="夢の破片,霞影　絃音,かえい　いとね,Itone Kaei,小説,作品サンプル,シナリオ,プロット,鬱,うつ,シリアス,ホラー,恋愛,BL,GL,TL" />
 			<meta name="description" content="拙い文章を書いています。憂鬱な作品のサンプルにでもお使いください。" />
 				<!---------------->
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-			<link rel="stylesheet" href="css/default.css" />
-			<link rel="stylesheet" href="css/default-add.css" />
+			<link rel="stylesheet" href="../css/default.css" />
+			<link rel="stylesheet" href="../css/main-contents.css" />
 			<style>
-				#BioImg {
-					text-align: center;
+				#pages {
+					margin: 0;
+					list-style: none;
+				}
+					#pages a:hover, #pages a:active {
+						color: #720000;
+					}
+				.text {
+					margin: 0 0 30px;
 				}
 			</style>
 	</head>
@@ -30,13 +38,45 @@
 				<!---------------->
 <nav></nav>
 				<!---------------->
+	<div id="TateyomiYokoyomi">
+		<ul id="ReadingMenu">
+				<ul id="Tateyoko">
+					<li id="Tate">縦読み</li>
+					<li id="Yoko">横読み</li>
+				</ul>
+		</ul>
+	</div>
 <main>
-	<div id="bio"></div>
-	<script src="js/default-add.js"></script>
+	<div id="wrap">
+<div id="warning">
+<B>【警告】</B>
+ <ul>
+  <li>精神疾患（うつ、PTSD、自傷行為など）</li>
+  <li>家族の死（特に癌や突然死など具体的な描写がある場合）</li>
+  <li>幼少期からの苦しみやトラウマ</li>
+  <li>医療・入院・事故に関する詳細な描写</li>
+  <li>解離やフラッシュバックの体験</li>
+  <li>音に関する過敏さや苦痛の描写（聴覚過敏など）</li>
+ </ul>
+<hr>
+<B>目次</B>
+ <ul id="pages">
+   <li><a href="#start">始まり</a></li>
+ </ul>
+<hr>
+</div>
+
+<div class="text">
+<a name="start"><B>始まり</B></a><BR />
+</div>
+
+
+	</div>
 </main>
 				<!---------------->
 		<footer><div></div></footer>
 				<!---------------->
-			<script src="js/default.js"></script>
+			<script src="../js/default.js"></script>
+			<script src="../js/read.js"></script>
 </body>
 </html>

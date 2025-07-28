@@ -11,6 +11,11 @@ $("#nonfiction-content-decoartion-menu").html(
 		'<li><a href="nonfiction/6.html">「次は無いよ」</a></li>' +
 	'</ul>'
 );
+$("#nonfiction-content-essay-menu").html(
+	'<ul id="ContentMenuTitle">' +
+		'<li><a href="nonfiction/e-1.html">始まり</a></li>' +
+	'</ul>'
+);
 
 //Fiction
 $("#tGRJD").html(
