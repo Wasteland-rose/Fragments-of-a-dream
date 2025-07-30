@@ -38,10 +38,10 @@ $(document).ready(function () {
         '<div class="search">' +
             '<div class="content LongStory AllAges Love Flow" data-date="2025-07-28">' +
             '<div class="Pi">' +
-            '<div class="Title_Pi"><a href="#">微笑む君に花束を</a></div>' +
+            '<div class="Title_Pi"><a href="main/bouquet.html">微笑む君に花束を</a></div>' +
 	            '<div class="Tag_Pi">長編 / 全年齢 / 恋愛 / ノリ</div>' +
 	            '<div class="Summary_Pi">SFを舞台にしたBL作品</div>' +
-	            '<div class="Writing_Pi">執筆日：執筆中</div>' +
+	            '<div class="Writing_Pi">執筆日：2025/07/31～</div>' +
             '<div class="Plot_Pi"><a href="main/plot/bouquet.html">あとがき・プロットはこちら</a></div>' +
             '</div></div></div>' +
 
