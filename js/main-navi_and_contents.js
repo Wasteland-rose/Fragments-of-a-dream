@@ -37,12 +37,12 @@ $(document).ready(function () {
 
         '<div class="search">' +
             '<div class="content LongStory AllAges Love Flow" data-date="2025-07-28">' +
-            '<div class="O">' +
-            '<div class="Title_O"><a href="#">微笑む君に花束を</a></div>' +
-	            '<div class="Tag_O">長編 / 全年齢 / 恋愛 / ノリ</div>' +
-	            '<div class="Summary_O">執筆中</div>' +
-	            '<div class="Writing_O">執筆日：執筆中</div>' +
-            '<div class="Plot_O"><a href="#">あとがき</a></div>' +
+            '<div class="Pi">' +
+            '<div class="Title_Pi"><a href="#">微笑む君に花束を</a></div>' +
+	            '<div class="Tag_Pi">長編 / 全年齢 / 恋愛 / ノリ</div>' +
+	            '<div class="Summary_Pi">SFを舞台にしたBL作品</div>' +
+	            '<div class="Writing_Pi">執筆日：執筆中</div>' +
+            '<div class="Plot_Pi"><a href="main/plot/bouquet.html">あとがき・プロットはこちら</a></div>' +
             '</div></div></div>' +
 
         '<div class="search">' +
@@ -52,7 +52,7 @@ $(document).ready(function () {
 	            '<div class="Tag_Pu">長編 / R15 / ホラー / シリアス / ノリ</div>' +
 	            '<div class="Summary_Pu">厳格な規則と謎に満ちた学園に売られた妹・ニアが、兄ノアとともに狂気と恐怖の中で運命を切り開く。読者参加型のダークファンタジー物語。<BR />分岐エンド有</div>' +
 	            '<div class="Writing_Pu">執筆日：2025/07/28</div>' +
-            '<div class="Plot_Pu"><a href="main/plot/Ridicule.html">あとがき</a></div>' +
+            '<div class="Plot_Pu"><a href="main/plot/Ridicule.html">あとがきはこちら</a></div>' +
             '</div></div></div>' +
 
         '<div class="search">' +
