@@ -42,7 +42,7 @@ $(document).ready(function () {
 	            '<div class="Tag_Pi">長編 / 全年齢 / 恋愛 / ノリ</div>' +
 	            '<div class="Summary_Pi">SFを舞台にしたBL作品</div>' +
 	            '<div class="Writing_Pi">執筆日：2025/07/31～</div>' +
-	            '<div class="Writing_Pi">次回更新：2025/08/14</div>' +
+	            '<div class="Writing_Pi">次回更新：2025/08/28</div>' +
             '<div class="Plot_Pi"><a href="main/plot/bouquet.html">あとがき・プロットはこちら</a></div>' +
             '</div></div></div>' +
 
