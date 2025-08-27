@@ -11,13 +11,20 @@ $("#nonfiction-content-decoartion-menu").html(
 		'<li><a href="nonfiction/6.html">「次は無いよ」</a></li>' +
 	'</ul>'
 );
-$("#nonfiction-content-essay-menu").html(
-	'<ul id="ContentMenuTitle">' +
-		'<li><a href="nonfiction/e-1.html">始まり</a></li>' +
-	'</ul>'
-);
 
 //Fiction
+$("#bouquet").html(
+	'<ul id="ContentMenuTitle">' +
+		'<li><a href="fiction/bouquet-1.html">１</a></li>' +
+		'<li><a href="fiction/bouquet-2.html">２</a></li>' +
+		'<li><a href="fiction/bouquet-3.html">３</a></li>' +
+		'<li><a href="fiction/bouquet-4.html">４</a></li>' +
+		'<li><a href="fiction/bouquet-5.html">５</a></li>' +
+		'<li><a href="fiction/bouquet-6.html">６</a></li>' +
+		'<li><a href="fiction/bouquet-7.html">７</a></li>' +
+		'<li><a href="fiction/bouquet-8.html">８</a></li>' +
+	'</ul>'
+);
 $("#tGRJD").html(
 	'<ul id="ContentMenuTitle">' +
 		'<li><a href="fiction/tGRJD-1.html">序章</a></li>' +
