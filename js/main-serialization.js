@@ -23,6 +23,10 @@ $("#bouquet").html(
 		'<li><a href="fiction/bouquet-6.html">６</a></li>' +
 		'<li><a href="fiction/bouquet-7.html">７</a></li>' +
 		'<li><a href="fiction/bouquet-8.html">８</a></li>' +
+		'<li><a href="fiction/bouquet-9.html">９</a></li>' +
+		'<li><a href="fiction/bouquet-10.html">１０</a></li>' +
+		'<li><a href="fiction/bouquet-11.html">１１</a></li>' +
+		'<li><a href="fiction/bouquet-12.html">１２</a></li>' +
 	'</ul>'
 );
 $("#tGRJD").html(
