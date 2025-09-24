@@ -27,6 +27,7 @@ $("#bouquet").html(
 		'<li><a href="fiction/bouquet-10.html">１０</a></li>' +
 		'<li><a href="fiction/bouquet-11.html">１１</a></li>' +
 		'<li><a href="fiction/bouquet-12.html">１２</a></li>' +
+		'<li><a href="fiction/bouquet-13.html">１３</a></li>' +
 	'</ul>'
 );
 $("#tGRJD").html(
