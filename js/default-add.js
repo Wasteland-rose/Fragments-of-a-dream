@@ -38,9 +38,6 @@ $("#HpRule").html(
 //--------------------------------------------------
 
 $("#bio").html(
- '<div id="BioImg">' +
-   '<img src="images/Wasteland_Rose.png" oncontextmenu="return false;">' +
- '</div>' +
  '<div id="Bio">' +
   '<dt>NAME</dt>' +
   '<dd>' +
@@ -60,6 +57,11 @@ $("#bio").html(
 						'<div id="mail_address"><input type="text" value="itonekaei@gmail.com" onclick="this.select()" readonly></div>' +
 							'<hr>' +
 								'<div class="text-small">件名には「商用」「二次創作」など分かりやすくしてください。</div>' +
+					'</dd>' +
+				'<dt>ChatGPT</dt>' +
+					'<dd>' +
+						'<div>一部プログラミングに使用・確認。</div>' +
+						'<div>物語のあらすじに使用。</div>' +
 					'</dd>' +
 				'<dt>OPERATIPN CHECK</dt>' +
 					'<dd>' +
