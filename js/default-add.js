@@ -47,44 +47,48 @@ $("#bio").html(
   '<dd>' +
      'O' +
   '</dd>' +
+  '<dt>DIARY</dt>' +
+	'<dd>' +
+		'<a href="diary.html" style="border-bottom: 1px solid #111;">日々の綴り</a>' +
+	'</dd>' +
   '<dt>SNS</dt>' +
-					'<dd>' +
-						'<a href="https://x.com/itonekaei_/"><img src="images/X_icon.png"></a>' +
-					'</dd>' +
-				'<dt>CONTACT</dt>' +
-					'<dd>' +
-						'<div id="send_mail"><a href="mailto:itonekaei@gmail.com">メールを送る</a></div>' +
-						'<div id="mail_address"><input type="text" value="itonekaei@gmail.com" onclick="this.select()" readonly></div>' +
-							'<hr>' +
-								'<div class="text-small">件名には「商用」「二次創作」など分かりやすくしてください。</div>' +
-					'</dd>' +
-				'<dt>ChatGPT</dt>' +
-					'<dd>' +
-						'<div>一部プログラミングに使用・確認。</div>' +
-						'<div>物語のあらすじに使用。</div>' +
-					'</dd>' +
-				'<dt>OPERATIPN CHECK</dt>' +
-					'<dd>' +
-						'<div>Windows11 - Microsoft Bing</div>' +
-						'<div>Windows11 - Microsoft Edge</div>' +
-						'<div>Windows11 - Chrome</div>' +
-						'<div>Windows11 - Firefox</div>' +
-						'<div>Windows11 - Opera</div>' +
-						'<div>Windows11 - Brave</div>' +
-						'<div>GALAXY S23ultra</div>' +
-						'<div>iPhone15</div>' +
-						'<div>iPhoneSE</div>' +
-							'<div id="check">' +
-								'<a href="https://jigsaw.w3.org/css-validator/check/referer">' +
-									'<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="正当なCSSです!" />' +
-								'</a>' +
-							'</div>' +
-								'<div class="border"></div>' +
-									'<div class="text-small">' +
-										'ブラウザーによってレイアウトが異なる場合がございます。<BR />iPhoneは友人のスマートフォンで確認していただいています。' +
-									'</div>' +
-					'</dd>' +
-		'</div>'
+	'<dd>' +
+		'<a href="https://x.com/itonekaei_/"><img src="images/X_icon.png"></a>' +
+	'</dd>' +
+　'<dt>CONTACT</dt>' +
+	'<dd>' +
+		'<div id="send_mail"><a href="mailto:itonekaei@gmail.com">メールを送る</a></div>' +
+		'<div id="mail_address"><input type="text" value="itonekaei@gmail.com" onclick="this.select()" readonly></div>' +
+			'<hr>' +
+		'<div class="text-small">件名には「商用」「二次創作」など分かりやすくしてください。</div>' +
+	'</dd>' +
+　'<dt>ChatGPT</dt>' +
+	'<dd>' +
+		'<div>一部プログラミングに使用・確認。</div>' +
+		'<div>物語のあらすじに使用。</div>' +
+	'</dd>' +
+　'<dt>OPERATIPN CHECK</dt>' +
+	'<dd>' +
+		'<div>Windows11 - Microsoft Bing</div>' +
+		'<div>Windows11 - Microsoft Edge</div>' +
+		'<div>Windows11 - Chrome</div>' +
+		'<div>Windows11 - Firefox</div>' +
+		'<div>Windows11 - Opera</div>' +
+		'<div>Windows11 - Brave</div>' +
+		'<div>GALAXY S23ultra</div>' +
+		'<div>iPhone15</div>' +
+		'<div>iPhoneSE</div>' +
+			'<div id="check">' +
+				'<a href="https://jigsaw.w3.org/css-validator/check/referer">' +
+					'<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="正当なCSSです!" />' +
+				'</a>' +
+			'</div>' +
+			'<div class="border"></div>' +
+				'<div class="text-small">' +
+					'ブラウザーによってレイアウトが異なる場合がございます。<BR />iPhoneは友人のスマートフォンで確認していただいています。' +
+				'</div>' +
+	'</dd>' +
+ '</div>'
 	);
 
 //--------------------------------------------------
