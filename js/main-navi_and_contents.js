@@ -42,7 +42,7 @@ $(document).ready(function () {
 	            '<div class="Tag_Pi">長編 / 全年齢 / 恋愛 / ノリ</div>' +
 	            '<div class="Summary_Pi">SFを舞台にしたBL作品<BR /><BR />「13」から更新は1ページずつになります。<BR />物語の筋が見えなくなってきているので、不定期配信となります。<BR />更新する際には必ずXにて報告します。<BR />すみません。</div>' +
 	            '<div class="Writing_Pi">執筆日：2025/07/31～</div>' +
-	            '<div class="Writing_Pi">次回更新：不定期</div>' +
+	            '<div class="Writing_Pi">次回更新：2025/11/20</div>' +
             '<div class="Plot_Pi"><a href="main/plot/bouquet.html">あとがき・プロットはこちら</a></div>' +
             '</div></div></div>' +
 
